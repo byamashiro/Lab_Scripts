@@ -1,0 +1,318 @@
+%%
+%% Beginning of file 'sample.tex'
+%%
+%% Modified 2015 December
+%%
+%% This is a sample manuscript marked up using the
+%% AASTeX v6.x LaTeX 2e macros.
+
+%% AASTeX is now based on Alexey Vikhlinin's emulateapj.cls 
+%% (Copyright 2000-2015).  See the classfile for details.
+%%
+%% AASTeX requires revtex4-1.cls (http://publish.aps.org/revtex4/) and
+%% other external packages (latexsym, graphicx, amssymb, longtable, and epsf).
+%% All of these external packages should already be present in the modern TeX 
+%% distributions.  If not they can also be obtained at www.ctan.org.
+
+%% The first piece of markup in an AASTeX v6.x document is the \documentclass
+%% command. LaTeX will ignore any data that comes before this command. The 
+%% documentclass can take an optional argument to modify the output style.
+%% The command below calls the preprint style  which will produce a tightly 
+%% typeset, one-column, single-spaced document.  It is the default and thus
+%% does not need to be explicitly stated.
+%%
+
+%% using aastex version 6
+\documentclass[onecolumn]{aastex6}
+\usepackage{subfigure}
+\usepackage{amsmath}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{soul} %for strkeout
+ 
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+ 
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+ 
+\lstset{style=mystyle}
+
+
+%% The other main article choice is a tightly typeset, two-column article
+%% that more closely resembles the final typeset pdf article.
+%%
+%% \documentclass[twocolumn]{aastex6}
+%% 
+%% There are other optional arguments one can envoke to allow other 
+%% actions. 
+%%
+% These are the available options:
+%   manuscript	: onecolumn, doublespace, 12pt fonts
+%   preprint	: onecolumn, single space, 10pt fonts
+%   preprint2	: twocolumn, single space, 10pt fonts
+%   twocolumn	: a two column article. Probably not needed, but here just in case.
+%   onecolumn	: a one column article; default option.
+%   twocolappendix: make 2 column appendix
+%   onecolappendix: make 1 column appendix is the default. 
+%   astrosymb	: Loads Astrosymb font and define \astrocommands. 
+%   tighten	: Makes baselineskip slightly smaller
+%   times	: uses times font instead of the default
+%   linenumbers	: turn on lineno package.
+%   trackchanges : required to see the revision mark up and print output
+%   numberedappendix: Labels appendix sections A, B, ... This is the default.
+%   appendixfloats: Needed. Resets figure and table counters to zero
+
+%% these can be used in any combination, e.g.
+%%
+%% \documentclass[twocolumn,twocolappendix,linenumbers,trackchanges]{aastex6}
+
+%% If you want to create your own macros, you can do so
+%% using \newcommand. Your macros should appear before
+%% the \begin{document} command.
+%%
+\newcommand{\vdag}{(v)^\dagger}
+\newcommand\aastex{AAS\TeX}
+\newcommand\latex{La\TeX}
+
+%% AASTeX 6.0 supports the ability to suppress the names and affiliations
+%% of some authors and displaying them under a "collaboration" banner to
+%% minimize the amount of author information that to be printed.  This 
+%% should be reserved for articles with an extreme number of authors.
+%%
+%% Mark up commands to limit the number of authors on the front page.
+\AuthorCallLimit=2
+%% Will only show Schwarz & Muench since Schwarz and Muench
+%% are in the same \author call. 
+\fullcollaborationName{The Friends of AASTeX Collaboration}
+%% will print the collaboration text after the shortened author list.
+%% These commands have to COME BEFORE the \author calls.
+%%
+%% Note that all of these author will be shown in the published article.
+%% This feature is meant to be used prior to acceptance to make the
+%% front end of a long author article more manageable.
+%% Use \allauthors at the manuscript end to show the full author list.
+
+%% The following command can be used to set the latex table counters.  It
+%% is needed in this document because it uses a mix of latex tabular and
+%% AASTeX deluxetables.  In general it should not be needed.
+%\setcounter{table}{1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
+%% The following commented section outlines numerous optional output that
+%% can be displayed in the front matter or as running meta-data.
+%%
+%% You can insert a short comment on the title page using the command below.
+%% \slugcomment{Not to appear in Nonlearned J., 45.}
+%%
+%% If you wish, you may supply running head information, although
+%% this information may be modified by the editorial offices.
+%%\shorttitle{\aastex sample article}
+%%\shortauthors{Schwarz et al.}
+%%
+%% You can add a light gray and diagonal water-mark to the first page 
+%% with this command:
+%% \watermark{text}
+%% where "text", e.g. DRAFT, is the text to appear.  If the text is 
+%% long you can control the water-mark size with:
+%% \setwatermarkfontsize{dimension}
+%% where dimension is any recognized LaTeX dimension, e.g. pt, in, etc.
+%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% This is the end of the preamble.  Indicate the beginning of the
+%% paper itself with \begin{document}.
+
+\begin{document}
+
+%% LaTeX will automatically break titles if they run longer than
+%% one line. However, you may use \\ to force a line break if
+%% you desire.
+
+\title{HW 05: Protostars}
+
+%% Use \author, \affil, plus the \and command to format author and affiliation 
+%% information.  If done correctly the peer review system will be able to
+%% automatically put the author and affiliation information from the manuscript
+%% and save the corresponding author the trouble of entering it by hand.
+%%
+%% The \affil should be used to document primary affiliations and the
+%% \altaffil should be used for secondary affiliations, titles, or email.
+
+%% Authors with the same affiliation can be grouped in a single
+%% \author and \affil call.
+\author{Bryan Yamashiro\altaffilmark{1}}
+\affil{University of Hawaii at Manoa \\
+2500 Campus Road \\
+Honolulu, HI 96822}
+
+
+%% Use the \and command so offset the last author.
+
+%% Notice that each of these authors has alternate affiliations, which
+%% are identified by the \altaffilmark after each name.  Specify alternate
+%% affiliation information with \altaffiltext, with one command per each
+%% affiliation.
+
+%\altaffiltext{1}{A cool dude}
+%\altaffiltext{2}{Another cool dude}
+
+
+%% From the front matter, we move on to the body of the paper.
+%% Sections are demarcated by \section and \subsection, respectively.
+%% Observe the use of the LaTeX \label
+%% command after the \subsection to give a symbolic KEY to the
+%% subsection for cross-referencing in a \ref command.
+%% You can use LaTeX's \ref and \label commands to keep track of
+%% cross-references to sections, equations, tables, and figures.
+%% That way, if you change the order of any elements, LaTeX will
+%% automatically renumber them.
+
+%% We recommend that authors also use the natbib \citep
+%% and \citet commands to identify citations.  The citations are
+%% tied to the reference list via symbolic KEYs. The KEY corresponds
+%% to the KEY in the \bibitem in the reference list below. 
+
+\section{Initial Phase of Protostar Evolution}
+\subsection{Method 1}
+The relation used to calculate the radius of a protostar\,(R$_{ps}$) is provided in equation\,\ref{proto}. Only the species of H and H$_2$ are probed, therefore higher order additions including species such as Helium are omitted. The individual stellar parameters used to calculate R$_{ps}$ are provided in table\,\ref{parameters}. The equation was rewritten in equation\,\ref{derived} to yield R$_{ps}$. Plugging in the parameters from the table resulted in a protostar radius of \st{$\boxed{7.1854\times10^{11}\,m}$} or approximately \st{$\boxed{1033\,R_\odot}$}.
+
+
+
+\begin{equation}
+GM\left(\frac{1}{R_{ps}}-\frac{1}{R_1}\right)\approx \frac{1}{m_H}\left(\frac{\epsilon_d}{2} + \epsilon_i\right)+R_2
+\label{proto}
+\end{equation}
+
+\begin{equation}
+R_{ps} = m_H G M \left(\frac{2}{\epsilon_d} + \frac{1}{\epsilon_i}\right)
+\label{derived}
+\end{equation}
+
+\subsection{Method 2}
+The second attempt to find the protostar radius purely utilizes the gravitational energy in equation\,\ref{rad2}. The total of dissociation and ionization energy, E$_{total}$ was found using equation\,\ref{energy}, and the result was 3.0199$\times$10$^{46}$\,erg. E$_{total}$ in this case corresponds to the gravitational potential energy, -2U$_{total}$. The resulting radius of the protostar using method 2 was $\boxed{8.7436\times10^{10}\,m}$ or $\boxed{125.72\,R_\odot}$. If the density is uniform a 3/5 approximation can be applied for the gravitational potential energy, and multiplying the factor to the radii, results in a protostar radius of $\boxed{75.43\,R_\odot}$.
+
+\begin{equation}
+E_{total} = \frac{M}{2m_H} \epsilon_d + \frac{M}{m_H} \epsilon_i
+\label{energy}
+\end{equation}
+
+\begin{equation}
+R = \left|\frac{G M}{E_{total}}\right|
+\label{rad2}
+\end{equation}
+
+\begin{deluxetable}{cccc}
+\tablecaption{Protostar parameters.}
+\tablecolumns{4}
+\tablenum{1}
+\tablewidth{0pt}
+\tablehead{
+\colhead{Quantity}  &\colhead{Symbol}  & \colhead{Value}& \colhead{Units}\\
+\colhead{} & \colhead{}& \colhead{}& \colhead{[cgs units]} }
+\centering
+\startdata
+Gravitational Constant & G & 6.6743$\times$10$^{-8}$&cm$^3$ g$^{-1}$ s$^{-2}$\\
+Boltzmann's Constant & k$_B$ & 1.3807$\times$10$^{-16}$&cm$^2$ g s$^{-2}$ K$^{-1}$\\
+Protostar Mass & M & 1.989$\times$10$^{33}$&g\\
+Protostar Radius& R & 6.955$\times$10$^{10}$&cm \\
+H$_2$ Molecule Dissociation Energy & $\epsilon_d$ & 7.20979$\times$10$^{-12}$&erg \\
+H Atom Ionization Energy& $\epsilon_i$ & 2.17896$\times$10$^{-11}$&erg\\
+H Atom Mass & m$_H$ & 1.6726$\times$10$^{-24}$&g
+\enddata  
+%\tablenotetext{a}{At exposure start.}
+\tablecomments{Physical and Astronomical constants. Note that the protostar mass and radius are assumed to be the mass and radius of the Sun, respectively. }
+\label{parameters}
+\end{deluxetable}
+
+\vspace{5mm}
+
+
+%\begin{figure*}[ht]
+%  \centering
+%  \includegraphics[scale=0.3]{nat1.pdf}%\quad
+%  \includegraphics[scale=0.3]{withoutshift.pdf}%\quad
+%  \includegraphics[scale=0.3]{dopper.pdf} \\%\quad
+%
+%  \caption{Profiles for Lorentz\,(left), Doppler\,(middle), and a combination of the two\,(right).}
+%  \label{broadening}
+%\end{figure*}
+
+\section{Reaching Quasi-Hydrostatic Equilibrium}
+
+To calculate the average internal temperature\,($\bar{T}$), the Viral theorem is invoked in equation\,\ref{temp}. It is imperative to note that since we are concerned with ionized hydrogen, $\mu$ is 1/2, therefore the denominator would be 6 for this case. In this instance, $\bar{T}$ is dependent on the protostar mass\,(M) in the numerator. The resulting average internal temperature is \st{$\boxed{7460.66\,K}$}. Using the radius from method 2, the average internal temperature of the protostar was $\boxed{6.131\times10^{4}\,K}$.
+
+%\begin{equation}
+%\bar{T} = \frac{\mu m_H G M}{3 k_B R_{ps}}
+%\label{temp}
+%\end{equation}
+
+\begin{equation}
+\bar{T} = \frac{\mu m_H G M}{3 k_B R_{ps}}
+\label{temp}
+\end{equation}
+
+
+
+
+
+
+
+
+%% Appendix material should be preceded with a single \appendix command.
+%% There should be a \section command for each appendix. Mark appendix
+%% subsections with the same markup you use in the main body of the paper.
+
+%% Each Appendix (indicated with \section) will be lettered A, B, C, etc.
+%% The equation counter will reset when it encounters the \appendix
+%% command and will number appendix equations (A1), (A2), etc.
+
+
+%% The reference list follows the main body and any appendices.
+%% Use LaTeX's thebibliography environment to mark up your reference list.
+%% Note \begin{thebibliography} is followed by an empty set of
+%% curly braces.  If you forget this, LaTeX will generate the error
+%% "Perhaps a missing \item?".
+%%
+%% thebibliography produces citations in the text using \bibitem-\cite
+%% cross-referencing. Each reference is preceded by a
+%% \bibitem command that defines in curly braces the KEY that corresponds
+%% to the KEY in the \cite commands (see the first section above).
+%% Make sure that you provide a unique KEY for every \bibitem or else the
+%% paper will not LaTeX. The square brackets should contain
+%% the citation text that LaTeX will insert in
+%% place of the \cite commands.
+
+%% We have used macros to produce journal name abbreviations.
+%% \aastex provides a number of these for the more frequently-cited journals.
+%% See the Author Guide for a list of them.
+
+%% Note that the style of the \bibitem labels (in []) is slightly
+%% different from previous examples.  The natbib system solves a host
+%% of citation expression problems, but it is necessary to clearly
+%% delimit the year from the author name used in the citation.
+%% See the natbib documentation for more details and options.
+
+
+\end{document}
+
+%% End of file `sample.tex'.

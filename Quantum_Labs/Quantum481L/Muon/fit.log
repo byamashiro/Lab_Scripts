@@ -1,0 +1,2240 @@
+
+
+*******************************************************************************
+Sun Feb 28 16:15:44 2016
+
+
+FIT:    data read from "group2muondata_2016.Spe" using 0:1
+        format = x:z
+        x range restricted to [500.000 : 610.000]
+        #datapoints = 111
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a * (exp((-(x-b)**2)/(2*c**2)))+m1*x+b1
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             m1            b1           
+   0 4.7753154319e+07   0.00e+00  2.53e+02    1.000000e+02   5.400000e+02   5.000000e+02   1.000000e+00   1.000000e+00
+  65 6.2357268775e+01  -7.95e-01  2.53e-17    1.908733e+00   5.271068e+02   2.066089e+00  -3.284196e-03   2.364302e+00
+
+After 65 iterations the fit converged.
+final sum of squares of residuals : 62.3573
+rel. change during last iteration : -7.94842e-06
+
+degrees of freedom    (FIT_NDF)                        : 106
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.766992
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.588276
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 1.90873          +/- 0.5016       (26.28%)
+b               = 527.107          +/- 0.6237       (0.1183%)
+c               = 2.06609          +/- 0.6399       (30.97%)
+m1              = -0.0032842       +/- 0.002374     (72.28%)
+b1              = 2.3643           +/- 1.327        (56.12%)
+
+correlation matrix of the fit parameters:
+                a      b      c      m1     b1     
+a               1.000 
+b               0.142  1.000 
+c              -0.521 -0.127  1.000 
+m1              0.100 -0.025  0.179  1.000 
+b1             -0.106  0.025 -0.189 -0.998  1.000 
+
+
+*******************************************************************************
+Sun Feb 28 16:15:44 2016
+
+
+FIT:    data read from "group2muondata_2016.Spe" u 0:1
+        format = x:z
+        x range restricted to [610.000 : 900.000]
+        #datapoints = 291
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+	f1(x) = A1*exp(-0.5*((x-o1)/s1)**2)+(e1*x*x)+(d1*x)+c1 + A2*exp(-0.5*((x-o2)/s2)**2)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A1            o1            s1            c1            d1            e1            A2            o2            s2           
+   0 2.5466464949e+17   0.00e+00  9.85e+06    2.470000e+02   7.130000e+02   5.000000e+01   1.450000e+02   5.000000e+01   5.000000e+01   1.620000e+02   8.130000e+02   1.000000e+02
+  88 8.2618963761e+01  -9.86e-01  9.85e-02    2.227762e+00   7.656238e+02   1.079881e+02   3.839477e+01  -1.051298e-01   6.859498e-05   1.670097e+02   1.390536e+03   7.360149e+01
+
+After 88 iterations the fit converged.
+final sum of squares of residuals : 82.619
+rel. change during last iteration : -9.86297e-06
+
+degrees of freedom    (FIT_NDF)                        : 282
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.541272
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.292975
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A1              = 2.22776          +/- 33.42        (1500%)
+o1              = 765.624          +/- 80.29        (10.49%)
+s1              = 107.988          +/- 533.7        (494.3%)
+c1              = 38.3948          +/- 287.8        (749.6%)
+d1              = -0.10513         +/- 0.8322       (791.6%)
+e1              = 6.8595e-05       +/- 0.0005393    (786.2%)
+A2              = 167.01           +/- 1.213e+13    (7.261e+12%)
+o2              = 1390.54          +/- 1.573e+12    (1.131e+11%)
+s2              = 73.6015          +/- 9.969e+10    (1.354e+11%)
+
+correlation matrix of the fit parameters:
+                A1     o1     s1     c1     d1     e1     A2     o2     s2     
+A1              1.000 
+o1              0.561  1.000 
+s1              0.997  0.616  1.000 
+c1              0.994  0.469  0.982  1.000 
+d1             -0.993 -0.466 -0.981 -1.000  1.000 
+e1              0.992  0.454  0.979  1.000 -1.000  1.000 
+A2              0.537  0.853  0.574  0.463 -0.461  0.450  1.000 
+o2              0.540  0.857  0.577  0.466 -0.464  0.453  1.000  1.000 
+s2              0.544  0.862  0.581  0.469 -0.467  0.456  1.000  1.000  1.000 
+
+
+*******************************************************************************
+Sun Feb 28 16:17:55 2016
+
+
+FIT:    data read from "group2muondata_2016.Spe" using 0:1
+        format = x:z
+        x range restricted to [500.000 : 610.000]
+        #datapoints = 111
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a * (exp((-(x-b)**2)/(2*c**2)))+m1*x+b1
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             m1            b1           
+   0 4.7753154319e+07   0.00e+00  2.53e+02    1.000000e+02   5.400000e+02   5.000000e+02   1.000000e+00   1.000000e+00
+  65 6.2357268775e+01  -7.95e-01  2.53e-17    1.908733e+00   5.271068e+02   2.066089e+00  -3.284196e-03   2.364302e+00
+
+After 65 iterations the fit converged.
+final sum of squares of residuals : 62.3573
+rel. change during last iteration : -7.94842e-06
+
+degrees of freedom    (FIT_NDF)                        : 106
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.766992
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.588276
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 1.90873          +/- 0.5016       (26.28%)
+b               = 527.107          +/- 0.6237       (0.1183%)
+c               = 2.06609          +/- 0.6399       (30.97%)
+m1              = -0.0032842       +/- 0.002374     (72.28%)
+b1              = 2.3643           +/- 1.327        (56.12%)
+
+correlation matrix of the fit parameters:
+                a      b      c      m1     b1     
+a               1.000 
+b               0.142  1.000 
+c              -0.521 -0.127  1.000 
+m1              0.100 -0.025  0.179  1.000 
+b1             -0.106  0.025 -0.189 -0.998  1.000 
+
+
+*******************************************************************************
+Sun Feb 28 16:17:55 2016
+
+
+FIT:    data read from "group2muondata_2016.Spe" u 0:1
+        format = x:z
+        x range restricted to [610.000 : 900.000]
+        #datapoints = 291
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+	f1(x) = A1*exp(-0.5*((x-o1)/s1)**2)+(e1*x*x)+(d1*x)+c1 + A2*exp(-0.5*((x-o2)/s2)**2)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A1            o1            s1            c1            d1            e1            A2            o2            s2           
+   0 2.5466464949e+17   0.00e+00  9.85e+06    2.470000e+02   7.130000e+02   5.000000e+01   1.450000e+02   5.000000e+01   5.000000e+01   1.620000e+02   8.130000e+02   1.000000e+02
+  88 8.2618963761e+01  -9.86e-01  9.85e-02    2.227762e+00   7.656238e+02   1.079881e+02   3.839477e+01  -1.051298e-01   6.859498e-05   1.670097e+02   1.390536e+03   7.360149e+01
+
+After 88 iterations the fit converged.
+final sum of squares of residuals : 82.619
+rel. change during last iteration : -9.86297e-06
+
+degrees of freedom    (FIT_NDF)                        : 282
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.541272
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.292975
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A1              = 2.22776          +/- 33.42        (1500%)
+o1              = 765.624          +/- 80.29        (10.49%)
+s1              = 107.988          +/- 533.7        (494.3%)
+c1              = 38.3948          +/- 287.8        (749.6%)
+d1              = -0.10513         +/- 0.8322       (791.6%)
+e1              = 6.8595e-05       +/- 0.0005393    (786.2%)
+A2              = 167.01           +/- 1.213e+13    (7.261e+12%)
+o2              = 1390.54          +/- 1.573e+12    (1.131e+11%)
+s2              = 73.6015          +/- 9.969e+10    (1.354e+11%)
+
+correlation matrix of the fit parameters:
+                A1     o1     s1     c1     d1     e1     A2     o2     s2     
+A1              1.000 
+o1              0.561  1.000 
+s1              0.997  0.616  1.000 
+c1              0.994  0.469  0.982  1.000 
+d1             -0.993 -0.466 -0.981 -1.000  1.000 
+e1              0.992  0.454  0.979  1.000 -1.000  1.000 
+A2              0.537  0.853  0.574  0.463 -0.461  0.450  1.000 
+o2              0.540  0.857  0.577  0.466 -0.464  0.453  1.000  1.000 
+s2              0.544  0.862  0.581  0.469 -0.467  0.456  1.000  1.000  1.000 
+
+
+*******************************************************************************
+Sun Feb 28 16:18:25 2016
+
+
+FIT:    data read from "group2muondata_2016.Spe" using 0:1
+        format = x:z
+        x range restricted to [500.000 : 610.000]
+        #datapoints = 111
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a * (exp((-(x-b)**2)/(2*c**2)))+m1*x+b1
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             m1            b1           
+   0 4.7753154319e+07   0.00e+00  2.53e+02    1.000000e+02   5.400000e+02   5.000000e+02   1.000000e+00   1.000000e+00
+  65 6.2357268775e+01  -7.95e-01  2.53e-17    1.908733e+00   5.271068e+02   2.066089e+00  -3.284196e-03   2.364302e+00
+
+After 65 iterations the fit converged.
+final sum of squares of residuals : 62.3573
+rel. change during last iteration : -7.94842e-06
+
+degrees of freedom    (FIT_NDF)                        : 106
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.766992
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.588276
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 1.90873          +/- 0.5016       (26.28%)
+b               = 527.107          +/- 0.6237       (0.1183%)
+c               = 2.06609          +/- 0.6399       (30.97%)
+m1              = -0.0032842       +/- 0.002374     (72.28%)
+b1              = 2.3643           +/- 1.327        (56.12%)
+
+correlation matrix of the fit parameters:
+                a      b      c      m1     b1     
+a               1.000 
+b               0.142  1.000 
+c              -0.521 -0.127  1.000 
+m1              0.100 -0.025  0.179  1.000 
+b1             -0.106  0.025 -0.189 -0.998  1.000 
+
+
+*******************************************************************************
+Sun Feb 28 16:18:26 2016
+
+
+FIT:    data read from "group2muondata_2016.Spe" u 0:1
+        format = x:z
+        x range restricted to [610.000 : 900.000]
+        #datapoints = 291
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+	f1(x) = A1*exp(-0.5*((x-o1)/s1)**2)+(e1*x*x)+(d1*x)+c1 + A2*exp(-0.5*((x-o2)/s2)**2)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A1            o1            s1            c1            d1            e1            A2            o2            s2           
+   0 2.5466464949e+17   0.00e+00  9.85e+06    2.470000e+02   7.130000e+02   5.000000e+01   1.450000e+02   5.000000e+01   5.000000e+01   1.620000e+02   8.130000e+02   1.000000e+02
+  88 8.2618963761e+01  -9.86e-01  9.85e-02    2.227762e+00   7.656238e+02   1.079881e+02   3.839477e+01  -1.051298e-01   6.859498e-05   1.670097e+02   1.390536e+03   7.360149e+01
+
+After 88 iterations the fit converged.
+final sum of squares of residuals : 82.619
+rel. change during last iteration : -9.86297e-06
+
+degrees of freedom    (FIT_NDF)                        : 282
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.541272
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.292975
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A1              = 2.22776          +/- 33.42        (1500%)
+o1              = 765.624          +/- 80.29        (10.49%)
+s1              = 107.988          +/- 533.7        (494.3%)
+c1              = 38.3948          +/- 287.8        (749.6%)
+d1              = -0.10513         +/- 0.8322       (791.6%)
+e1              = 6.8595e-05       +/- 0.0005393    (786.2%)
+A2              = 167.01           +/- 1.213e+13    (7.261e+12%)
+o2              = 1390.54          +/- 1.573e+12    (1.131e+11%)
+s2              = 73.6015          +/- 9.969e+10    (1.354e+11%)
+
+correlation matrix of the fit parameters:
+                A1     o1     s1     c1     d1     e1     A2     o2     s2     
+A1              1.000 
+o1              0.561  1.000 
+s1              0.997  0.616  1.000 
+c1              0.994  0.469  0.982  1.000 
+d1             -0.993 -0.466 -0.981 -1.000  1.000 
+e1              0.992  0.454  0.979  1.000 -1.000  1.000 
+A2              0.537  0.853  0.574  0.463 -0.461  0.450  1.000 
+o2              0.540  0.857  0.577  0.466 -0.464  0.453  1.000  1.000 
+s2              0.544  0.862  0.581  0.469 -0.467  0.456  1.000  1.000  1.000 
+
+
+*******************************************************************************
+Sun Feb 28 16:22:01 2016
+
+
+FIT:    data read from "group2muondata_2016.Spe" using 0:1
+        format = x:z
+        x range restricted to [500.000 : 610.000]
+        #datapoints = 111
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a * (exp((-(x-b)**2)/(2*c**2)))+m1*x+b1
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             m1            b1           
+   0 4.7753154319e+07   0.00e+00  2.53e+02    1.000000e+02   5.400000e+02   5.000000e+02   1.000000e+00   1.000000e+00
+  65 6.2357268775e+01  -7.95e-01  2.53e-17    1.908733e+00   5.271068e+02   2.066089e+00  -3.284196e-03   2.364302e+00
+
+After 65 iterations the fit converged.
+final sum of squares of residuals : 62.3573
+rel. change during last iteration : -7.94842e-06
+
+degrees of freedom    (FIT_NDF)                        : 106
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.766992
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.588276
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 1.90873          +/- 0.5016       (26.28%)
+b               = 527.107          +/- 0.6237       (0.1183%)
+c               = 2.06609          +/- 0.6399       (30.97%)
+m1              = -0.0032842       +/- 0.002374     (72.28%)
+b1              = 2.3643           +/- 1.327        (56.12%)
+
+correlation matrix of the fit parameters:
+                a      b      c      m1     b1     
+a               1.000 
+b               0.142  1.000 
+c              -0.521 -0.127  1.000 
+m1              0.100 -0.025  0.179  1.000 
+b1             -0.106  0.025 -0.189 -0.998  1.000 
+
+
+*******************************************************************************
+Sun Feb 28 16:22:01 2016
+
+
+FIT:    data read from "group2muondata_2016.Spe" u 0:1
+        format = x:z
+        x range restricted to [610.000 : 900.000]
+        #datapoints = 291
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+	f1(x) = A1*exp(-0.5*((x-o1)/s1)**2)+(e1*x*x)+(d1*x)+c1 + A2*exp(-0.5*((x-o2)/s2)**2)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A1            o1            s1            c1            d1            e1            A2            o2            s2           
+   0 2.5466464949e+17   0.00e+00  9.85e+06    2.470000e+02   7.130000e+02   5.000000e+01   1.450000e+02   5.000000e+01   5.000000e+01   1.620000e+02   8.130000e+02   1.000000e+02
+  88 8.2618963761e+01  -9.86e-01  9.85e-02    2.227762e+00   7.656238e+02   1.079881e+02   3.839477e+01  -1.051298e-01   6.859498e-05   1.670097e+02   1.390536e+03   7.360149e+01
+
+After 88 iterations the fit converged.
+final sum of squares of residuals : 82.619
+rel. change during last iteration : -9.86297e-06
+
+degrees of freedom    (FIT_NDF)                        : 282
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.541272
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.292975
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A1              = 2.22776          +/- 33.42        (1500%)
+o1              = 765.624          +/- 80.29        (10.49%)
+s1              = 107.988          +/- 533.7        (494.3%)
+c1              = 38.3948          +/- 287.8        (749.6%)
+d1              = -0.10513         +/- 0.8322       (791.6%)
+e1              = 6.8595e-05       +/- 0.0005393    (786.2%)
+A2              = 167.01           +/- 1.213e+13    (7.261e+12%)
+o2              = 1390.54          +/- 1.573e+12    (1.131e+11%)
+s2              = 73.6015          +/- 9.969e+10    (1.354e+11%)
+
+correlation matrix of the fit parameters:
+                A1     o1     s1     c1     d1     e1     A2     o2     s2     
+A1              1.000 
+o1              0.561  1.000 
+s1              0.997  0.616  1.000 
+c1              0.994  0.469  0.982  1.000 
+d1             -0.993 -0.466 -0.981 -1.000  1.000 
+e1              0.992  0.454  0.979  1.000 -1.000  1.000 
+A2              0.537  0.853  0.574  0.463 -0.461  0.450  1.000 
+o2              0.540  0.857  0.577  0.466 -0.464  0.453  1.000  1.000 
+s2              0.544  0.862  0.581  0.469 -0.467  0.456  1.000  1.000  1.000 
+
+
+*******************************************************************************
+Sun Feb 28 16:25:14 2016
+
+
+FIT:    data read from "group2muondata_2016.Spe" using 0:1
+        format = x:z
+        x range restricted to [500.000 : 610.000]
+        #datapoints = 111
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a * (exp((-(x-b)**2)/(2*c**2)))+m1*x+b1
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             m1            b1           
+   0 4.7753154319e+07   0.00e+00  2.53e+02    1.000000e+02   5.400000e+02   5.000000e+02   1.000000e+00   1.000000e+00
+  65 6.2357268775e+01  -7.95e-01  2.53e-17    1.908733e+00   5.271068e+02   2.066089e+00  -3.284196e-03   2.364302e+00
+
+After 65 iterations the fit converged.
+final sum of squares of residuals : 62.3573
+rel. change during last iteration : -7.94842e-06
+
+degrees of freedom    (FIT_NDF)                        : 106
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.766992
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.588276
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 1.90873          +/- 0.5016       (26.28%)
+b               = 527.107          +/- 0.6237       (0.1183%)
+c               = 2.06609          +/- 0.6399       (30.97%)
+m1              = -0.0032842       +/- 0.002374     (72.28%)
+b1              = 2.3643           +/- 1.327        (56.12%)
+
+correlation matrix of the fit parameters:
+                a      b      c      m1     b1     
+a               1.000 
+b               0.142  1.000 
+c              -0.521 -0.127  1.000 
+m1              0.100 -0.025  0.179  1.000 
+b1             -0.106  0.025 -0.189 -0.998  1.000 
+
+
+*******************************************************************************
+Sun Feb 28 16:25:14 2016
+
+
+FIT:    data read from "group2muondata_2016.Spe" u 0:1
+        format = x:z
+        x range restricted to [610.000 : 900.000]
+        #datapoints = 291
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+	f1(x) = A1*exp(-0.5*((x-o1)/s1)**2)+(e1*x*x)+(d1*x)+c1 + A2*exp(-0.5*((x-o2)/s2)**2)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A1            o1            s1            c1            d1            e1            A2            o2            s2           
+   0 2.5466464949e+17   0.00e+00  9.85e+06    2.470000e+02   7.130000e+02   5.000000e+01   1.450000e+02   5.000000e+01   5.000000e+01   1.620000e+02   8.130000e+02   1.000000e+02
+  88 8.2618963761e+01  -9.86e-01  9.85e-02    2.227762e+00   7.656238e+02   1.079881e+02   3.839477e+01  -1.051298e-01   6.859498e-05   1.670097e+02   1.390536e+03   7.360149e+01
+
+After 88 iterations the fit converged.
+final sum of squares of residuals : 82.619
+rel. change during last iteration : -9.86297e-06
+
+degrees of freedom    (FIT_NDF)                        : 282
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.541272
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.292975
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A1              = 2.22776          +/- 33.42        (1500%)
+o1              = 765.624          +/- 80.29        (10.49%)
+s1              = 107.988          +/- 533.7        (494.3%)
+c1              = 38.3948          +/- 287.8        (749.6%)
+d1              = -0.10513         +/- 0.8322       (791.6%)
+e1              = 6.8595e-05       +/- 0.0005393    (786.2%)
+A2              = 167.01           +/- 1.213e+13    (7.261e+12%)
+o2              = 1390.54          +/- 1.573e+12    (1.131e+11%)
+s2              = 73.6015          +/- 9.969e+10    (1.354e+11%)
+
+correlation matrix of the fit parameters:
+                A1     o1     s1     c1     d1     e1     A2     o2     s2     
+A1              1.000 
+o1              0.561  1.000 
+s1              0.997  0.616  1.000 
+c1              0.994  0.469  0.982  1.000 
+d1             -0.993 -0.466 -0.981 -1.000  1.000 
+e1              0.992  0.454  0.979  1.000 -1.000  1.000 
+A2              0.537  0.853  0.574  0.463 -0.461  0.450  1.000 
+o2              0.540  0.857  0.577  0.466 -0.464  0.453  1.000  1.000 
+s2              0.544  0.862  0.581  0.469 -0.467  0.456  1.000  1.000  1.000 
+
+
+*******************************************************************************
+Sun Feb 28 16:25:46 2016
+
+
+FIT:    data read from "group2muondata_2016.Spe" using 0:1
+        format = x:z
+        x range restricted to [500.000 : 610.000]
+        #datapoints = 111
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a * (exp((-(x-b)**2)/(2*c**2)))+m1*x+b1
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             m1            b1           
+   0 4.7753154319e+07   0.00e+00  2.53e+02    1.000000e+02   5.400000e+02   5.000000e+02   1.000000e+00   1.000000e+00
+  65 6.2357268775e+01  -7.95e-01  2.53e-17    1.908733e+00   5.271068e+02   2.066089e+00  -3.284196e-03   2.364302e+00
+
+After 65 iterations the fit converged.
+final sum of squares of residuals : 62.3573
+rel. change during last iteration : -7.94842e-06
+
+degrees of freedom    (FIT_NDF)                        : 106
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.766992
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.588276
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 1.90873          +/- 0.5016       (26.28%)
+b               = 527.107          +/- 0.6237       (0.1183%)
+c               = 2.06609          +/- 0.6399       (30.97%)
+m1              = -0.0032842       +/- 0.002374     (72.28%)
+b1              = 2.3643           +/- 1.327        (56.12%)
+
+correlation matrix of the fit parameters:
+                a      b      c      m1     b1     
+a               1.000 
+b               0.142  1.000 
+c              -0.521 -0.127  1.000 
+m1              0.100 -0.025  0.179  1.000 
+b1             -0.106  0.025 -0.189 -0.998  1.000 
+
+
+*******************************************************************************
+Sun Feb 28 16:25:46 2016
+
+
+FIT:    data read from "group2muondata_2016.Spe" u 0:1
+        format = x:z
+        x range restricted to [610.000 : 900.000]
+        #datapoints = 291
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+	f1(x) = A1*exp(-0.5*((x-o1)/s1)**2)+(e1*x*x)+(d1*x)+c1 + A2*exp(-0.5*((x-o2)/s2)**2)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A1            o1            s1            c1            d1            e1            A2            o2            s2           
+   0 2.5466464949e+17   0.00e+00  9.85e+06    2.470000e+02   7.130000e+02   5.000000e+01   1.450000e+02   5.000000e+01   5.000000e+01   1.620000e+02   8.130000e+02   1.000000e+02
+  88 8.2618963761e+01  -9.86e-01  9.85e-02    2.227762e+00   7.656238e+02   1.079881e+02   3.839477e+01  -1.051298e-01   6.859498e-05   1.670097e+02   1.390536e+03   7.360149e+01
+
+After 88 iterations the fit converged.
+final sum of squares of residuals : 82.619
+rel. change during last iteration : -9.86297e-06
+
+degrees of freedom    (FIT_NDF)                        : 282
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.541272
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.292975
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A1              = 2.22776          +/- 33.42        (1500%)
+o1              = 765.624          +/- 80.29        (10.49%)
+s1              = 107.988          +/- 533.7        (494.3%)
+c1              = 38.3948          +/- 287.8        (749.6%)
+d1              = -0.10513         +/- 0.8322       (791.6%)
+e1              = 6.8595e-05       +/- 0.0005393    (786.2%)
+A2              = 167.01           +/- 1.213e+13    (7.261e+12%)
+o2              = 1390.54          +/- 1.573e+12    (1.131e+11%)
+s2              = 73.6015          +/- 9.969e+10    (1.354e+11%)
+
+correlation matrix of the fit parameters:
+                A1     o1     s1     c1     d1     e1     A2     o2     s2     
+A1              1.000 
+o1              0.561  1.000 
+s1              0.997  0.616  1.000 
+c1              0.994  0.469  0.982  1.000 
+d1             -0.993 -0.466 -0.981 -1.000  1.000 
+e1              0.992  0.454  0.979  1.000 -1.000  1.000 
+A2              0.537  0.853  0.574  0.463 -0.461  0.450  1.000 
+o2              0.540  0.857  0.577  0.466 -0.464  0.453  1.000  1.000 
+s2              0.544  0.862  0.581  0.469 -0.467  0.456  1.000  1.000  1.000 
+
+
+*******************************************************************************
+Sun Feb 28 16:28:26 2016
+
+
+FIT:    data read from "group2muondata_2016.Spe" using 0:1
+        format = x:z
+        x range restricted to [500.000 : 610.000]
+        #datapoints = 111
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a * (exp((-(x-b)**2)/(2*c**2)))+m1*x+b1
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             m1            b1           
+   0 4.7753154319e+07   0.00e+00  2.53e+02    1.000000e+02   5.400000e+02   5.000000e+02   1.000000e+00   1.000000e+00
+  65 6.2357268775e+01  -7.95e-01  2.53e-17    1.908733e+00   5.271068e+02   2.066089e+00  -3.284196e-03   2.364302e+00
+
+After 65 iterations the fit converged.
+final sum of squares of residuals : 62.3573
+rel. change during last iteration : -7.94842e-06
+
+degrees of freedom    (FIT_NDF)                        : 106
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.766992
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.588276
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 1.90873          +/- 0.5016       (26.28%)
+b               = 527.107          +/- 0.6237       (0.1183%)
+c               = 2.06609          +/- 0.6399       (30.97%)
+m1              = -0.0032842       +/- 0.002374     (72.28%)
+b1              = 2.3643           +/- 1.327        (56.12%)
+
+correlation matrix of the fit parameters:
+                a      b      c      m1     b1     
+a               1.000 
+b               0.142  1.000 
+c              -0.521 -0.127  1.000 
+m1              0.100 -0.025  0.179  1.000 
+b1             -0.106  0.025 -0.189 -0.998  1.000 
+
+
+*******************************************************************************
+Sun Feb 28 16:28:26 2016
+
+
+FIT:    data read from "group2muondata_2016.Spe" u 0:1
+        format = x:z
+        x range restricted to [610.000 : 900.000]
+        #datapoints = 291
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+	f1(x) = A1*exp(-0.5*((x-o1)/s1)**2)+(e1*x*x)+(d1*x)+c1 + A2*exp(-0.5*((x-o2)/s2)**2)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A1            o1            s1            c1            d1            e1            A2            o2            s2           
+   0 2.5466464949e+17   0.00e+00  9.85e+06    2.470000e+02   7.130000e+02   5.000000e+01   1.450000e+02   5.000000e+01   5.000000e+01   1.620000e+02   8.130000e+02   1.000000e+02
+  88 8.2618963761e+01  -9.86e-01  9.85e-02    2.227762e+00   7.656238e+02   1.079881e+02   3.839477e+01  -1.051298e-01   6.859498e-05   1.670097e+02   1.390536e+03   7.360149e+01
+
+After 88 iterations the fit converged.
+final sum of squares of residuals : 82.619
+rel. change during last iteration : -9.86297e-06
+
+degrees of freedom    (FIT_NDF)                        : 282
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.541272
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.292975
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A1              = 2.22776          +/- 33.42        (1500%)
+o1              = 765.624          +/- 80.29        (10.49%)
+s1              = 107.988          +/- 533.7        (494.3%)
+c1              = 38.3948          +/- 287.8        (749.6%)
+d1              = -0.10513         +/- 0.8322       (791.6%)
+e1              = 6.8595e-05       +/- 0.0005393    (786.2%)
+A2              = 167.01           +/- 1.213e+13    (7.261e+12%)
+o2              = 1390.54          +/- 1.573e+12    (1.131e+11%)
+s2              = 73.6015          +/- 9.969e+10    (1.354e+11%)
+
+correlation matrix of the fit parameters:
+                A1     o1     s1     c1     d1     e1     A2     o2     s2     
+A1              1.000 
+o1              0.561  1.000 
+s1              0.997  0.616  1.000 
+c1              0.994  0.469  0.982  1.000 
+d1             -0.993 -0.466 -0.981 -1.000  1.000 
+e1              0.992  0.454  0.979  1.000 -1.000  1.000 
+A2              0.537  0.853  0.574  0.463 -0.461  0.450  1.000 
+o2              0.540  0.857  0.577  0.466 -0.464  0.453  1.000  1.000 
+s2              0.544  0.862  0.581  0.469 -0.467  0.456  1.000  1.000  1.000 
+
+
+*******************************************************************************
+Sun Feb 28 16:30:38 2016
+
+
+FIT:    data read from "group2muondata_2016.Spe" using 0:1
+        format = x:z
+        x range restricted to [500.000 : 610.000]
+        #datapoints = 111
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a * (exp((-(x-b)**2)/(2*c**2)))+m1*x+b1
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             m1            b1           
+   0 4.7753154319e+07   0.00e+00  2.53e+02    1.000000e+02   5.400000e+02   5.000000e+02   1.000000e+00   1.000000e+00
+  65 6.2357268775e+01  -7.95e-01  2.53e-17    1.908733e+00   5.271068e+02   2.066089e+00  -3.284196e-03   2.364302e+00
+
+After 65 iterations the fit converged.
+final sum of squares of residuals : 62.3573
+rel. change during last iteration : -7.94842e-06
+
+degrees of freedom    (FIT_NDF)                        : 106
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.766992
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.588276
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 1.90873          +/- 0.5016       (26.28%)
+b               = 527.107          +/- 0.6237       (0.1183%)
+c               = 2.06609          +/- 0.6399       (30.97%)
+m1              = -0.0032842       +/- 0.002374     (72.28%)
+b1              = 2.3643           +/- 1.327        (56.12%)
+
+correlation matrix of the fit parameters:
+                a      b      c      m1     b1     
+a               1.000 
+b               0.142  1.000 
+c              -0.521 -0.127  1.000 
+m1              0.100 -0.025  0.179  1.000 
+b1             -0.106  0.025 -0.189 -0.998  1.000 
+
+
+*******************************************************************************
+Sun Feb 28 16:30:38 2016
+
+
+FIT:    data read from "group2muondata_2016.Spe" u 0:1
+        format = x:z
+        x range restricted to [610.000 : 900.000]
+        #datapoints = 291
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+	f1(x) = A1*exp(-0.5*((x-o1)/s1)**2)+(e1*x*x)+(d1*x)+c1 + A2*exp(-0.5*((x-o2)/s2)**2)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A1            o1            s1            c1            d1            e1            A2            o2            s2           
+   0 2.5466464949e+17   0.00e+00  9.85e+06    2.470000e+02   7.130000e+02   5.000000e+01   1.450000e+02   5.000000e+01   5.000000e+01   1.620000e+02   8.130000e+02   1.000000e+02
+  88 8.2618963761e+01  -9.86e-01  9.85e-02    2.227762e+00   7.656238e+02   1.079881e+02   3.839477e+01  -1.051298e-01   6.859498e-05   1.670097e+02   1.390536e+03   7.360149e+01
+
+After 88 iterations the fit converged.
+final sum of squares of residuals : 82.619
+rel. change during last iteration : -9.86297e-06
+
+degrees of freedom    (FIT_NDF)                        : 282
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.541272
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.292975
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A1              = 2.22776          +/- 33.42        (1500%)
+o1              = 765.624          +/- 80.29        (10.49%)
+s1              = 107.988          +/- 533.7        (494.3%)
+c1              = 38.3948          +/- 287.8        (749.6%)
+d1              = -0.10513         +/- 0.8322       (791.6%)
+e1              = 6.8595e-05       +/- 0.0005393    (786.2%)
+A2              = 167.01           +/- 1.213e+13    (7.261e+12%)
+o2              = 1390.54          +/- 1.573e+12    (1.131e+11%)
+s2              = 73.6015          +/- 9.969e+10    (1.354e+11%)
+
+correlation matrix of the fit parameters:
+                A1     o1     s1     c1     d1     e1     A2     o2     s2     
+A1              1.000 
+o1              0.561  1.000 
+s1              0.997  0.616  1.000 
+c1              0.994  0.469  0.982  1.000 
+d1             -0.993 -0.466 -0.981 -1.000  1.000 
+e1              0.992  0.454  0.979  1.000 -1.000  1.000 
+A2              0.537  0.853  0.574  0.463 -0.461  0.450  1.000 
+o2              0.540  0.857  0.577  0.466 -0.464  0.453  1.000  1.000 
+s2              0.544  0.862  0.581  0.469 -0.467  0.456  1.000  1.000  1.000 
+
+
+*******************************************************************************
+Sun Feb 28 16:36:19 2016
+
+
+FIT:    data read from "group2muondata_2016.Spe" using 0:1
+        format = x:z
+        x range restricted to [500.000 : 610.000]
+        #datapoints = 111
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a * (exp((-(x-b)**2)/(2*c**2)))+m1*x+b1
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             m1            b1           
+   0 4.7753154319e+07   0.00e+00  2.53e+02    1.000000e+02   5.400000e+02   5.000000e+02   1.000000e+00   1.000000e+00
+  65 6.2357268775e+01  -7.95e-01  2.53e-17    1.908733e+00   5.271068e+02   2.066089e+00  -3.284196e-03   2.364302e+00
+
+After 65 iterations the fit converged.
+final sum of squares of residuals : 62.3573
+rel. change during last iteration : -7.94842e-06
+
+degrees of freedom    (FIT_NDF)                        : 106
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.766992
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.588276
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 1.90873          +/- 0.5016       (26.28%)
+b               = 527.107          +/- 0.6237       (0.1183%)
+c               = 2.06609          +/- 0.6399       (30.97%)
+m1              = -0.0032842       +/- 0.002374     (72.28%)
+b1              = 2.3643           +/- 1.327        (56.12%)
+
+correlation matrix of the fit parameters:
+                a      b      c      m1     b1     
+a               1.000 
+b               0.142  1.000 
+c              -0.521 -0.127  1.000 
+m1              0.100 -0.025  0.179  1.000 
+b1             -0.106  0.025 -0.189 -0.998  1.000 
+
+
+*******************************************************************************
+Sun Feb 28 16:36:19 2016
+
+
+FIT:    data read from "group2muondata_2016.Spe" u 0:1
+        format = x:z
+        x range restricted to [100.000 : 650.000]
+        #datapoints = 551
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+	f1(x) = A1*exp(-0.5*((x-o1)/s1)**2)+(e1*x*x)+(d1*x)+c1 + A2*exp(-0.5*((x-o2)/s2)**2)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A1            o1            s1            c1            d1            e1            A2            o2            s2           
+   0 5.8457385760e+16   0.00e+00  3.43e+06    6.000000e+00   2.000000e+02   5.000000e+01   4.000000e+01   5.000000e+01   5.000000e+01   1.620000e+02   8.130000e+02   1.000000e+02
+  67 5.0566282687e+02  -9.94e-01  3.43e-01    4.307391e+00   2.461903e+01   1.780036e+02  -4.566391e+00   1.932650e-02  -1.830489e-05   1.596379e+02   1.150361e+03   8.116633e+01
+
+After 67 iterations the fit converged.
+final sum of squares of residuals : 505.663
+rel. change during last iteration : -9.94115e-06
+
+degrees of freedom    (FIT_NDF)                        : 542
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.965897
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.932957
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A1              = 4.30739          +/- 85.37        (1982%)
+o1              = 24.619           +/- 1633         (6632%)
+s1              = 178.004          +/- 1035         (581.3%)
+c1              = -4.56639         +/- 95.37        (2088%)
+d1              = 0.0193265        +/- 0.3105       (1607%)
+e1              = -1.83049e-05     +/- 0.0002573    (1405%)
+A2              = 159.638          +/- 4.464e+11    (2.796e+11%)
+o2              = 1150.36          +/- 7.19e+10     (6.25e+09%)
+s2              = 81.1663          +/- 5.123e+09    (6.311e+09%)
+
+correlation matrix of the fit parameters:
+                A1     o1     s1     c1     d1     e1     A2     o2     s2     
+A1              1.000 
+o1             -0.999  1.000 
+s1              0.999 -1.000  1.000 
+c1             -1.000  0.999 -0.998  1.000 
+d1              1.000 -0.998  0.997 -1.000  1.000 
+e1             -0.999  0.997 -0.996  1.000 -1.000  1.000 
+A2              0.732 -0.725  0.715 -0.735  0.740 -0.747  1.000 
+o2              0.738 -0.731  0.721 -0.741  0.746 -0.753  1.000  1.000 
+s2              0.745 -0.738  0.728 -0.748  0.753 -0.760  1.000  1.000  1.000 
+
+
+*******************************************************************************
+Sun Feb 28 16:36:38 2016
+
+
+FIT:    data read from "group2muondata_2016.Spe" using 0:1
+        format = x:z
+        x range restricted to [500.000 : 610.000]
+        #datapoints = 111
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a * (exp((-(x-b)**2)/(2*c**2)))+m1*x+b1
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             m1            b1           
+   0 4.7753154319e+07   0.00e+00  2.53e+02    1.000000e+02   5.400000e+02   5.000000e+02   1.000000e+00   1.000000e+00
+  65 6.2357268775e+01  -7.95e-01  2.53e-17    1.908733e+00   5.271068e+02   2.066089e+00  -3.284196e-03   2.364302e+00
+
+After 65 iterations the fit converged.
+final sum of squares of residuals : 62.3573
+rel. change during last iteration : -7.94842e-06
+
+degrees of freedom    (FIT_NDF)                        : 106
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.766992
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.588276
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 1.90873          +/- 0.5016       (26.28%)
+b               = 527.107          +/- 0.6237       (0.1183%)
+c               = 2.06609          +/- 0.6399       (30.97%)
+m1              = -0.0032842       +/- 0.002374     (72.28%)
+b1              = 2.3643           +/- 1.327        (56.12%)
+
+correlation matrix of the fit parameters:
+                a      b      c      m1     b1     
+a               1.000 
+b               0.142  1.000 
+c              -0.521 -0.127  1.000 
+m1              0.100 -0.025  0.179  1.000 
+b1             -0.106  0.025 -0.189 -0.998  1.000 
+
+
+*******************************************************************************
+Sun Feb 28 16:36:38 2016
+
+
+FIT:    data read from "group2muondata_2016.Spe" u 0:1
+        format = x:z
+        x range restricted to [100.000 : 650.000]
+        #datapoints = 551
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+	f1(x) = A1*exp(-0.5*((x-o1)/s1)**2)+(e1*x*x)+(d1*x)+c1 + A2*exp(-0.5*((x-o2)/s2)**2)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A1            o1            s1            c1            d1            e1            A2            o2            s2           
+   0 5.8457385760e+16   0.00e+00  3.43e+06    6.000000e+00   2.000000e+02   5.000000e+01   4.000000e+01   5.000000e+01   5.000000e+01   1.620000e+02   8.130000e+02   1.000000e+02
+  67 5.0566282687e+02  -9.94e-01  3.43e-01    4.307391e+00   2.461903e+01   1.780036e+02  -4.566391e+00   1.932650e-02  -1.830489e-05   1.596379e+02   1.150361e+03   8.116633e+01
+
+After 67 iterations the fit converged.
+final sum of squares of residuals : 505.663
+rel. change during last iteration : -9.94115e-06
+
+degrees of freedom    (FIT_NDF)                        : 542
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.965897
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.932957
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A1              = 4.30739          +/- 85.37        (1982%)
+o1              = 24.619           +/- 1633         (6632%)
+s1              = 178.004          +/- 1035         (581.3%)
+c1              = -4.56639         +/- 95.37        (2088%)
+d1              = 0.0193265        +/- 0.3105       (1607%)
+e1              = -1.83049e-05     +/- 0.0002573    (1405%)
+A2              = 159.638          +/- 4.464e+11    (2.796e+11%)
+o2              = 1150.36          +/- 7.19e+10     (6.25e+09%)
+s2              = 81.1663          +/- 5.123e+09    (6.311e+09%)
+
+correlation matrix of the fit parameters:
+                A1     o1     s1     c1     d1     e1     A2     o2     s2     
+A1              1.000 
+o1             -0.999  1.000 
+s1              0.999 -1.000  1.000 
+c1             -1.000  0.999 -0.998  1.000 
+d1              1.000 -0.998  0.997 -1.000  1.000 
+e1             -0.999  0.997 -0.996  1.000 -1.000  1.000 
+A2              0.732 -0.725  0.715 -0.735  0.740 -0.747  1.000 
+o2              0.738 -0.731  0.721 -0.741  0.746 -0.753  1.000  1.000 
+s2              0.745 -0.738  0.728 -0.748  0.753 -0.760  1.000  1.000  1.000 
+
+
+*******************************************************************************
+Sun Feb 28 16:36:59 2016
+
+
+FIT:    data read from "group2muondata_2016.Spe" using 0:1
+        format = x:z
+        x range restricted to [500.000 : 610.000]
+        #datapoints = 111
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a * (exp((-(x-b)**2)/(2*c**2)))+m1*x+b1
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             m1            b1           
+   0 4.7753154319e+07   0.00e+00  2.53e+02    1.000000e+02   5.400000e+02   5.000000e+02   1.000000e+00   1.000000e+00
+  65 6.2357268775e+01  -7.95e-01  2.53e-17    1.908733e+00   5.271068e+02   2.066089e+00  -3.284196e-03   2.364302e+00
+
+After 65 iterations the fit converged.
+final sum of squares of residuals : 62.3573
+rel. change during last iteration : -7.94842e-06
+
+degrees of freedom    (FIT_NDF)                        : 106
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.766992
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.588276
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 1.90873          +/- 0.5016       (26.28%)
+b               = 527.107          +/- 0.6237       (0.1183%)
+c               = 2.06609          +/- 0.6399       (30.97%)
+m1              = -0.0032842       +/- 0.002374     (72.28%)
+b1              = 2.3643           +/- 1.327        (56.12%)
+
+correlation matrix of the fit parameters:
+                a      b      c      m1     b1     
+a               1.000 
+b               0.142  1.000 
+c              -0.521 -0.127  1.000 
+m1              0.100 -0.025  0.179  1.000 
+b1             -0.106  0.025 -0.189 -0.998  1.000 
+
+
+*******************************************************************************
+Sun Feb 28 16:36:59 2016
+
+
+FIT:    data read from "group2muondata_2016.Spe" u 0:1
+        format = x:z
+        x range restricted to [100.000 : 650.000]
+        #datapoints = 551
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+	f1(x) = A1*exp(-0.5*((x-o1)/s1)**2)+(e1*x*x)+(d1*x)+c1 + A2*exp(-0.5*((x-o2)/s2)**2)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A1            o1            s1            c1            d1            e1            A2            o2            s2           
+   0 5.8457385760e+16   0.00e+00  3.43e+06    6.000000e+00   2.000000e+02   5.000000e+01   4.000000e+01   5.000000e+01   5.000000e+01   1.620000e+02   8.130000e+02   1.000000e+02
+  67 5.0566282687e+02  -9.94e-01  3.43e-01    4.307391e+00   2.461903e+01   1.780036e+02  -4.566391e+00   1.932650e-02  -1.830489e-05   1.596379e+02   1.150361e+03   8.116633e+01
+
+After 67 iterations the fit converged.
+final sum of squares of residuals : 505.663
+rel. change during last iteration : -9.94115e-06
+
+degrees of freedom    (FIT_NDF)                        : 542
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.965897
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.932957
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A1              = 4.30739          +/- 85.37        (1982%)
+o1              = 24.619           +/- 1633         (6632%)
+s1              = 178.004          +/- 1035         (581.3%)
+c1              = -4.56639         +/- 95.37        (2088%)
+d1              = 0.0193265        +/- 0.3105       (1607%)
+e1              = -1.83049e-05     +/- 0.0002573    (1405%)
+A2              = 159.638          +/- 4.464e+11    (2.796e+11%)
+o2              = 1150.36          +/- 7.19e+10     (6.25e+09%)
+s2              = 81.1663          +/- 5.123e+09    (6.311e+09%)
+
+correlation matrix of the fit parameters:
+                A1     o1     s1     c1     d1     e1     A2     o2     s2     
+A1              1.000 
+o1             -0.999  1.000 
+s1              0.999 -1.000  1.000 
+c1             -1.000  0.999 -0.998  1.000 
+d1              1.000 -0.998  0.997 -1.000  1.000 
+e1             -0.999  0.997 -0.996  1.000 -1.000  1.000 
+A2              0.732 -0.725  0.715 -0.735  0.740 -0.747  1.000 
+o2              0.738 -0.731  0.721 -0.741  0.746 -0.753  1.000  1.000 
+s2              0.745 -0.738  0.728 -0.748  0.753 -0.760  1.000  1.000  1.000 
+
+
+*******************************************************************************
+Sun Feb 28 16:37:15 2016
+
+
+FIT:    data read from "group2muondata_2016.Spe" using 0:1
+        format = x:z
+        x range restricted to [500.000 : 610.000]
+        #datapoints = 111
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a * (exp((-(x-b)**2)/(2*c**2)))+m1*x+b1
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             m1            b1           
+   0 4.7753154319e+07   0.00e+00  2.53e+02    1.000000e+02   5.400000e+02   5.000000e+02   1.000000e+00   1.000000e+00
+  65 6.2357268775e+01  -7.95e-01  2.53e-17    1.908733e+00   5.271068e+02   2.066089e+00  -3.284196e-03   2.364302e+00
+
+After 65 iterations the fit converged.
+final sum of squares of residuals : 62.3573
+rel. change during last iteration : -7.94842e-06
+
+degrees of freedom    (FIT_NDF)                        : 106
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.766992
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.588276
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 1.90873          +/- 0.5016       (26.28%)
+b               = 527.107          +/- 0.6237       (0.1183%)
+c               = 2.06609          +/- 0.6399       (30.97%)
+m1              = -0.0032842       +/- 0.002374     (72.28%)
+b1              = 2.3643           +/- 1.327        (56.12%)
+
+correlation matrix of the fit parameters:
+                a      b      c      m1     b1     
+a               1.000 
+b               0.142  1.000 
+c              -0.521 -0.127  1.000 
+m1              0.100 -0.025  0.179  1.000 
+b1             -0.106  0.025 -0.189 -0.998  1.000 
+
+
+*******************************************************************************
+Sun Feb 28 16:37:15 2016
+
+
+FIT:    data read from "group2muondata_2016.Spe" u 0:1
+        format = x:z
+        x range restricted to [100.000 : 650.000]
+        #datapoints = 551
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+	f1(x) = A1*exp(-0.5*((x-o1)/s1)**2)+(e1*x*x)+(d1*x)+c1 + A2*exp(-0.5*((x-o2)/s2)**2)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A1            o1            s1            c1            d1            e1            A2            o2            s2           
+   0 5.8457385760e+16   0.00e+00  3.43e+06    6.000000e+00   2.000000e+02   5.000000e+01   4.000000e+01   5.000000e+01   5.000000e+01   1.620000e+02   8.130000e+02   1.000000e+02
+  67 5.0566282687e+02  -9.94e-01  3.43e-01    4.307391e+00   2.461903e+01   1.780036e+02  -4.566391e+00   1.932650e-02  -1.830489e-05   1.596379e+02   1.150361e+03   8.116633e+01
+
+After 67 iterations the fit converged.
+final sum of squares of residuals : 505.663
+rel. change during last iteration : -9.94115e-06
+
+degrees of freedom    (FIT_NDF)                        : 542
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.965897
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.932957
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A1              = 4.30739          +/- 85.37        (1982%)
+o1              = 24.619           +/- 1633         (6632%)
+s1              = 178.004          +/- 1035         (581.3%)
+c1              = -4.56639         +/- 95.37        (2088%)
+d1              = 0.0193265        +/- 0.3105       (1607%)
+e1              = -1.83049e-05     +/- 0.0002573    (1405%)
+A2              = 159.638          +/- 4.464e+11    (2.796e+11%)
+o2              = 1150.36          +/- 7.19e+10     (6.25e+09%)
+s2              = 81.1663          +/- 5.123e+09    (6.311e+09%)
+
+correlation matrix of the fit parameters:
+                A1     o1     s1     c1     d1     e1     A2     o2     s2     
+A1              1.000 
+o1             -0.999  1.000 
+s1              0.999 -1.000  1.000 
+c1             -1.000  0.999 -0.998  1.000 
+d1              1.000 -0.998  0.997 -1.000  1.000 
+e1             -0.999  0.997 -0.996  1.000 -1.000  1.000 
+A2              0.732 -0.725  0.715 -0.735  0.740 -0.747  1.000 
+o2              0.738 -0.731  0.721 -0.741  0.746 -0.753  1.000  1.000 
+s2              0.745 -0.738  0.728 -0.748  0.753 -0.760  1.000  1.000  1.000 
+
+
+*******************************************************************************
+Sun Feb 28 16:38:03 2016
+
+
+FIT:    data read from "group2muondata_2016.Spe" using 0:1
+        format = x:z
+        x range restricted to [500.000 : 610.000]
+        #datapoints = 111
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a * (exp((-(x-b)**2)/(2*c**2)))+m1*x+b1
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             m1            b1           
+   0 4.7753154319e+07   0.00e+00  2.53e+02    1.000000e+02   5.400000e+02   5.000000e+02   1.000000e+00   1.000000e+00
+  65 6.2357268775e+01  -7.95e-01  2.53e-17    1.908733e+00   5.271068e+02   2.066089e+00  -3.284196e-03   2.364302e+00
+
+After 65 iterations the fit converged.
+final sum of squares of residuals : 62.3573
+rel. change during last iteration : -7.94842e-06
+
+degrees of freedom    (FIT_NDF)                        : 106
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.766992
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.588276
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 1.90873          +/- 0.5016       (26.28%)
+b               = 527.107          +/- 0.6237       (0.1183%)
+c               = 2.06609          +/- 0.6399       (30.97%)
+m1              = -0.0032842       +/- 0.002374     (72.28%)
+b1              = 2.3643           +/- 1.327        (56.12%)
+
+correlation matrix of the fit parameters:
+                a      b      c      m1     b1     
+a               1.000 
+b               0.142  1.000 
+c              -0.521 -0.127  1.000 
+m1              0.100 -0.025  0.179  1.000 
+b1             -0.106  0.025 -0.189 -0.998  1.000 
+
+
+*******************************************************************************
+Sun Feb 28 16:38:03 2016
+
+
+FIT:    data read from "group2muondata_2016.Spe" u 0:1
+        format = x:z
+        x range restricted to [100.000 : 650.000]
+        #datapoints = 551
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+	f1(x) = A1*exp(-0.5*((x-o1)/s1)**2)+(e1*x*x)+(d1*x)+c1 + A2*exp(-0.5*((x-o2)/s2)**2)
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Sun Feb 28 16:38:35 2016
+
+
+FIT:    data read from "group2muondata_2016.Spe" using 0:1
+        format = x:z
+        x range restricted to [500.000 : 610.000]
+        #datapoints = 111
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a * (exp((-(x-b)**2)/(2*c**2)))+m1*x+b1
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             m1            b1           
+   0 4.7753154319e+07   0.00e+00  2.53e+02    1.000000e+02   5.400000e+02   5.000000e+02   1.000000e+00   1.000000e+00
+  65 6.2357268775e+01  -7.95e-01  2.53e-17    1.908733e+00   5.271068e+02   2.066089e+00  -3.284196e-03   2.364302e+00
+
+After 65 iterations the fit converged.
+final sum of squares of residuals : 62.3573
+rel. change during last iteration : -7.94842e-06
+
+degrees of freedom    (FIT_NDF)                        : 106
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.766992
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.588276
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 1.90873          +/- 0.5016       (26.28%)
+b               = 527.107          +/- 0.6237       (0.1183%)
+c               = 2.06609          +/- 0.6399       (30.97%)
+m1              = -0.0032842       +/- 0.002374     (72.28%)
+b1              = 2.3643           +/- 1.327        (56.12%)
+
+correlation matrix of the fit parameters:
+                a      b      c      m1     b1     
+a               1.000 
+b               0.142  1.000 
+c              -0.521 -0.127  1.000 
+m1              0.100 -0.025  0.179  1.000 
+b1             -0.106  0.025 -0.189 -0.998  1.000 
+
+
+*******************************************************************************
+Sun Feb 28 16:38:35 2016
+
+
+FIT:    data read from "group2muondata_2016.Spe" u 0:1
+        format = x:z
+        x range restricted to [100.000 : 650.000]
+        #datapoints = 551
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+	f1(x) = A1*exp(-0.5*((x-o1)/s1)**2)+(e1*x*x)+(d1*x)+c1 + A2*exp(-0.5*((x-o2)/s2)**2)
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Sun Feb 28 16:39:00 2016
+
+
+FIT:    data read from "group2muondata_2016.Spe" using 0:1
+        format = x:z
+        x range restricted to [500.000 : 610.000]
+        #datapoints = 111
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a * (exp((-(x-b)**2)/(2*c**2)))+m1*x+b1
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             m1            b1           
+   0 4.7753154319e+07   0.00e+00  2.53e+02    1.000000e+02   5.400000e+02   5.000000e+02   1.000000e+00   1.000000e+00
+  65 6.2357268775e+01  -7.95e-01  2.53e-17    1.908733e+00   5.271068e+02   2.066089e+00  -3.284196e-03   2.364302e+00
+
+After 65 iterations the fit converged.
+final sum of squares of residuals : 62.3573
+rel. change during last iteration : -7.94842e-06
+
+degrees of freedom    (FIT_NDF)                        : 106
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.766992
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.588276
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 1.90873          +/- 0.5016       (26.28%)
+b               = 527.107          +/- 0.6237       (0.1183%)
+c               = 2.06609          +/- 0.6399       (30.97%)
+m1              = -0.0032842       +/- 0.002374     (72.28%)
+b1              = 2.3643           +/- 1.327        (56.12%)
+
+correlation matrix of the fit parameters:
+                a      b      c      m1     b1     
+a               1.000 
+b               0.142  1.000 
+c              -0.521 -0.127  1.000 
+m1              0.100 -0.025  0.179  1.000 
+b1             -0.106  0.025 -0.189 -0.998  1.000 
+
+
+*******************************************************************************
+Sun Feb 28 16:39:00 2016
+
+
+FIT:    data read from "group2muondata_2016.Spe" u 0:1
+        format = x:z
+        x range restricted to [100.000 : 650.000]
+        #datapoints = 551
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+	f1(x) = A1*exp(-0.5*((x-o1)/s1)**2)+(e1*x*x)+(d1*x)+c1 + A2*exp(-0.5*((x-o2)/s2)**2)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A1            o1            s1            c1            d1            e1            A2            o2            s2           
+   0 5.8457385760e+16   0.00e+00  3.43e+06    6.000000e+00   2.000000e+02   5.000000e+01   4.000000e+01   5.000000e+01   5.000000e+01   1.620000e+02   8.130000e+02   1.000000e+02
+  67 5.0566282687e+02  -9.94e-01  3.43e-01    4.307391e+00   2.461903e+01   1.780036e+02  -4.566391e+00   1.932650e-02  -1.830489e-05   1.596379e+02   1.150361e+03   8.116633e+01
+
+After 67 iterations the fit converged.
+final sum of squares of residuals : 505.663
+rel. change during last iteration : -9.94115e-06
+
+degrees of freedom    (FIT_NDF)                        : 542
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.965897
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.932957
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A1              = 4.30739          +/- 85.37        (1982%)
+o1              = 24.619           +/- 1633         (6632%)
+s1              = 178.004          +/- 1035         (581.3%)
+c1              = -4.56639         +/- 95.37        (2088%)
+d1              = 0.0193265        +/- 0.3105       (1607%)
+e1              = -1.83049e-05     +/- 0.0002573    (1405%)
+A2              = 159.638          +/- 4.464e+11    (2.796e+11%)
+o2              = 1150.36          +/- 7.19e+10     (6.25e+09%)
+s2              = 81.1663          +/- 5.123e+09    (6.311e+09%)
+
+correlation matrix of the fit parameters:
+                A1     o1     s1     c1     d1     e1     A2     o2     s2     
+A1              1.000 
+o1             -0.999  1.000 
+s1              0.999 -1.000  1.000 
+c1             -1.000  0.999 -0.998  1.000 
+d1              1.000 -0.998  0.997 -1.000  1.000 
+e1             -0.999  0.997 -0.996  1.000 -1.000  1.000 
+A2              0.732 -0.725  0.715 -0.735  0.740 -0.747  1.000 
+o2              0.738 -0.731  0.721 -0.741  0.746 -0.753  1.000  1.000 
+s2              0.745 -0.738  0.728 -0.748  0.753 -0.760  1.000  1.000  1.000 
+
+
+*******************************************************************************
+Sun Feb 28 16:39:32 2016
+
+
+FIT:    data read from "group2muondata_2016.Spe" using 0:1
+        format = x:z
+        x range restricted to [500.000 : 610.000]
+        #datapoints = 111
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a * (exp((-(x-b)**2)/(2*c**2)))+m1*x+b1
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             m1            b1           
+   0 3.4711706359e+07   0.00e+00  2.49e+02    8.000000e+00   2.000000e+02   2.500000e+02   1.000000e+00   1.000000e+00
+  53 7.4119017849e+01  -9.83e-01  2.49e-01    1.873325e+00   2.095339e+02   3.980505e+02  -2.937495e-03   9.765712e-01
+
+After 53 iterations the fit converged.
+final sum of squares of residuals : 74.119
+rel. change during last iteration : -9.82592e-06
+
+degrees of freedom    (FIT_NDF)                        : 106
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.836203
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.699236
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 1.87333          +/- 1.337e+06    (7.135e+07%)
+b               = 209.534          +/- 9.296e+07    (4.436e+07%)
+c               = 398.05           +/- 9.306e+07    (2.338e+07%)
+m1              = -0.00293749      +/- 1370         (4.663e+07%)
+b1              = 0.976571         +/- 1.643e+06    (1.682e+08%)
+
+correlation matrix of the fit parameters:
+                a      b      c      m1     b1     
+a               1.000 
+b              -1.000  1.000 
+c               1.000 -1.000  1.000 
+m1              1.000 -1.000  1.000  1.000 
+b1             -1.000  1.000 -1.000 -1.000  1.000 
+
+
+*******************************************************************************
+Sun Feb 28 16:39:32 2016
+
+
+FIT:    data read from "group2muondata_2016.Spe" u 0:1
+        format = x:z
+        x range restricted to [100.000 : 650.000]
+        #datapoints = 551
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+	f1(x) = A1*exp(-0.5*((x-o1)/s1)**2)+(e1*x*x)+(d1*x)+c1 + A2*exp(-0.5*((x-o2)/s2)**2)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A1            o1            s1            c1            d1            e1            A2            o2            s2           
+   0 5.8457385760e+16   0.00e+00  3.43e+06    6.000000e+00   2.000000e+02   5.000000e+01   4.000000e+01   5.000000e+01   5.000000e+01   1.620000e+02   8.130000e+02   1.000000e+02
+  67 5.0566282687e+02  -9.94e-01  3.43e-01    4.307391e+00   2.461903e+01   1.780036e+02  -4.566391e+00   1.932650e-02  -1.830489e-05   1.596379e+02   1.150361e+03   8.116633e+01
+
+After 67 iterations the fit converged.
+final sum of squares of residuals : 505.663
+rel. change during last iteration : -9.94115e-06
+
+degrees of freedom    (FIT_NDF)                        : 542
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.965897
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.932957
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A1              = 4.30739          +/- 85.37        (1982%)
+o1              = 24.619           +/- 1633         (6632%)
+s1              = 178.004          +/- 1035         (581.3%)
+c1              = -4.56639         +/- 95.37        (2088%)
+d1              = 0.0193265        +/- 0.3105       (1607%)
+e1              = -1.83049e-05     +/- 0.0002573    (1405%)
+A2              = 159.638          +/- 4.464e+11    (2.796e+11%)
+o2              = 1150.36          +/- 7.19e+10     (6.25e+09%)
+s2              = 81.1663          +/- 5.123e+09    (6.311e+09%)
+
+correlation matrix of the fit parameters:
+                A1     o1     s1     c1     d1     e1     A2     o2     s2     
+A1              1.000 
+o1             -0.999  1.000 
+s1              0.999 -1.000  1.000 
+c1             -1.000  0.999 -0.998  1.000 
+d1              1.000 -0.998  0.997 -1.000  1.000 
+e1             -0.999  0.997 -0.996  1.000 -1.000  1.000 
+A2              0.732 -0.725  0.715 -0.735  0.740 -0.747  1.000 
+o2              0.738 -0.731  0.721 -0.741  0.746 -0.753  1.000  1.000 
+s2              0.745 -0.738  0.728 -0.748  0.753 -0.760  1.000  1.000  1.000 
+
+
+*******************************************************************************
+Sun Feb 28 16:39:43 2016
+
+
+FIT:    data read from "group2muondata_2016.Spe" using 0:1
+        format = x:z
+        x range restricted to [500.000 : 610.000]
+        #datapoints = 111
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a * (exp((-(x-b)**2)/(2*c**2)))+m1*x+b1
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             m1            b1           
+   0 3.4443070517e+07   0.00e+00  2.49e+02    8.000000e+00   8.000000e+00   2.500000e+02   1.000000e+00   1.000000e+00
+  60 7.4167148264e+01  -9.79e-01  2.49e-01    2.256683e+00   7.986339e+00   4.547849e+02  -2.798434e-03   1.087738e+00
+
+After 60 iterations the fit converged.
+final sum of squares of residuals : 74.1671
+rel. change during last iteration : -9.79069e-06
+
+degrees of freedom    (FIT_NDF)                        : 106
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.836475
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.69969
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 2.25668          +/- 1.204e+05    (5.334e+06%)
+b               = 7.98634          +/- 9.362e+06    (1.172e+08%)
+c               = 454.785          +/- 9.051e+06    (1.99e+06%)
+m1              = -0.00279843      +/- 100.4        (3.587e+06%)
+b1              = 1.08774          +/- 1.185e+05    (1.089e+07%)
+
+correlation matrix of the fit parameters:
+                a      b      c      m1     b1     
+a               1.000 
+b              -1.000  1.000 
+c               1.000 -1.000  1.000 
+m1              1.000 -1.000  1.000  1.000 
+b1             -1.000  1.000 -1.000 -1.000  1.000 
+
+
+*******************************************************************************
+Sun Feb 28 16:39:43 2016
+
+
+FIT:    data read from "group2muondata_2016.Spe" u 0:1
+        format = x:z
+        x range restricted to [100.000 : 650.000]
+        #datapoints = 551
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+	f1(x) = A1*exp(-0.5*((x-o1)/s1)**2)+(e1*x*x)+(d1*x)+c1 + A2*exp(-0.5*((x-o2)/s2)**2)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A1            o1            s1            c1            d1            e1            A2            o2            s2           
+   0 5.8457385760e+16   0.00e+00  3.43e+06    6.000000e+00   2.000000e+02   5.000000e+01   4.000000e+01   5.000000e+01   5.000000e+01   1.620000e+02   8.130000e+02   1.000000e+02
+  67 5.0566282687e+02  -9.94e-01  3.43e-01    4.307391e+00   2.461903e+01   1.780036e+02  -4.566391e+00   1.932650e-02  -1.830489e-05   1.596379e+02   1.150361e+03   8.116633e+01
+
+After 67 iterations the fit converged.
+final sum of squares of residuals : 505.663
+rel. change during last iteration : -9.94115e-06
+
+degrees of freedom    (FIT_NDF)                        : 542
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.965897
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.932957
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A1              = 4.30739          +/- 85.37        (1982%)
+o1              = 24.619           +/- 1633         (6632%)
+s1              = 178.004          +/- 1035         (581.3%)
+c1              = -4.56639         +/- 95.37        (2088%)
+d1              = 0.0193265        +/- 0.3105       (1607%)
+e1              = -1.83049e-05     +/- 0.0002573    (1405%)
+A2              = 159.638          +/- 4.464e+11    (2.796e+11%)
+o2              = 1150.36          +/- 7.19e+10     (6.25e+09%)
+s2              = 81.1663          +/- 5.123e+09    (6.311e+09%)
+
+correlation matrix of the fit parameters:
+                A1     o1     s1     c1     d1     e1     A2     o2     s2     
+A1              1.000 
+o1             -0.999  1.000 
+s1              0.999 -1.000  1.000 
+c1             -1.000  0.999 -0.998  1.000 
+d1              1.000 -0.998  0.997 -1.000  1.000 
+e1             -0.999  0.997 -0.996  1.000 -1.000  1.000 
+A2              0.732 -0.725  0.715 -0.735  0.740 -0.747  1.000 
+o2              0.738 -0.731  0.721 -0.741  0.746 -0.753  1.000  1.000 
+s2              0.745 -0.738  0.728 -0.748  0.753 -0.760  1.000  1.000  1.000 
+
+
+*******************************************************************************
+Sun Feb 28 16:40:37 2016
+
+
+FIT:    data read from "group2muondata_2016.Spe" using 0:1
+        format = x:z
+        x range restricted to [500.000 : 610.000]
+        #datapoints = 111
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a * (exp((-(x-b)**2)/(2*c**2)))+m1*x+b1
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             m1            b1           
+   0 3.4351638000e+07   0.00e+00  2.49e+02    8.000000e+00   2.000000e+02   1.000000e+00   1.000000e+00   1.000000e+00
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Sun Feb 28 16:40:43 2016
+
+
+FIT:    data read from "group2muondata_2016.Spe" using 0:1
+        format = x:z
+        x range restricted to [500.000 : 610.000]
+        #datapoints = 111
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a * (exp((-(x-b)**2)/(2*c**2)))+m1*x+b1
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             m1            b1           
+   0 3.4351638000e+07   0.00e+00  2.49e+02    8.000000e+00   2.000000e+02   2.000000e+00   1.000000e+00   1.000000e+00
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Sun Feb 28 16:40:57 2016
+
+
+FIT:    data read from "group2muondata_2016.Spe" using 0:1
+        format = x:z
+        x range restricted to [100.000 : 1000.00]
+        #datapoints = 901
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a * (exp((-(x-b)**2)/(2*c**2)))+m1*x+b1
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             m1            b1           
+   0 3.3407454792e+08   0.00e+00  2.73e+02    8.000000e+00   2.000000e+02   2.000000e+00   1.000000e+00   1.000000e+00
+  14 5.9662012918e+02  -5.87e-01  2.73e-01   -9.139123e-01   2.012738e+02   2.907462e+00  -1.337799e-03   1.345847e+00
+
+After 14 iterations the fit converged.
+final sum of squares of residuals : 596.62
+rel. change during last iteration : -5.8652e-06
+
+degrees of freedom    (FIT_NDF)                        : 896
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.816009
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.665871
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -0.913912        +/- 0.4417       (48.33%)
+b               = 201.274          +/- 1.619        (0.8045%)
+c               = 2.90746          +/- 1.632        (56.12%)
+m1              = -0.0013378       +/- 0.0001062    (7.938%)
+b1              = 1.34585          +/- 0.06511      (4.838%)
+
+correlation matrix of the fit parameters:
+                a      b      c      m1     b1     
+a               1.000 
+b              -0.040  1.000 
+c               0.562 -0.034  1.000 
+m1              0.060  0.002 -0.104  1.000 
+b1             -0.073 -0.002  0.126 -0.907  1.000 
+
+
+*******************************************************************************
+Sun Feb 28 16:40:57 2016
+
+
+FIT:    data read from "group2muondata_2016.Spe" u 0:1
+        format = x:z
+        x range restricted to [100.000 : 650.000]
+        #datapoints = 551
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+	f1(x) = A1*exp(-0.5*((x-o1)/s1)**2)+(e1*x*x)+(d1*x)+c1 + A2*exp(-0.5*((x-o2)/s2)**2)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A1            o1            s1            c1            d1            e1            A2            o2            s2           
+   0 5.8457385760e+16   0.00e+00  3.43e+06    6.000000e+00   2.000000e+02   5.000000e+01   4.000000e+01   5.000000e+01   5.000000e+01   1.620000e+02   8.130000e+02   1.000000e+02
+  67 5.0566282687e+02  -9.94e-01  3.43e-01    4.307391e+00   2.461903e+01   1.780036e+02  -4.566391e+00   1.932650e-02  -1.830489e-05   1.596379e+02   1.150361e+03   8.116633e+01
+
+After 67 iterations the fit converged.
+final sum of squares of residuals : 505.663
+rel. change during last iteration : -9.94115e-06
+
+degrees of freedom    (FIT_NDF)                        : 542
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.965897
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.932957
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A1              = 4.30739          +/- 85.37        (1982%)
+o1              = 24.619           +/- 1633         (6632%)
+s1              = 178.004          +/- 1035         (581.3%)
+c1              = -4.56639         +/- 95.37        (2088%)
+d1              = 0.0193265        +/- 0.3105       (1607%)
+e1              = -1.83049e-05     +/- 0.0002573    (1405%)
+A2              = 159.638          +/- 4.464e+11    (2.796e+11%)
+o2              = 1150.36          +/- 7.19e+10     (6.25e+09%)
+s2              = 81.1663          +/- 5.123e+09    (6.311e+09%)
+
+correlation matrix of the fit parameters:
+                A1     o1     s1     c1     d1     e1     A2     o2     s2     
+A1              1.000 
+o1             -0.999  1.000 
+s1              0.999 -1.000  1.000 
+c1             -1.000  0.999 -0.998  1.000 
+d1              1.000 -0.998  0.997 -1.000  1.000 
+e1             -0.999  0.997 -0.996  1.000 -1.000  1.000 
+A2              0.732 -0.725  0.715 -0.735  0.740 -0.747  1.000 
+o2              0.738 -0.731  0.721 -0.741  0.746 -0.753  1.000  1.000 
+s2              0.745 -0.738  0.728 -0.748  0.753 -0.760  1.000  1.000  1.000 
+
+
+*******************************************************************************
+Sun Feb 28 16:41:16 2016
+
+
+FIT:    data read from "group2muondata_2016.Spe" using 0:1
+        format = x:z
+        x range restricted to [100.000 : 1000.00]
+        #datapoints = 901
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a * (exp((-(x-b)**2)/(2*c**2)))+m1*x+b1
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             m1            b1           
+   0 3.3406837361e+08   0.00e+00  2.74e+02    8.000000e+00   2.500000e+02   1.000000e+00   1.000000e+00   1.000000e+00
+   5 5.9988937323e+02  -6.84e-02  2.74e+02    1.381323e+00   2.509152e+02  -3.028607e-01  -1.305083e-03   1.320466e+00
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 599.889
+rel. change during last iteration : -6.84304e-07
+
+degrees of freedom    (FIT_NDF)                        : 896
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.818242
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.669519
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 1.38132          +/- 3.873        (280.4%)
+b               = 250.915          +/- 6.607        (2.633%)
+c               = -0.302861        +/- 1.887        (622.9%)
+m1              = -0.00130508      +/- 0.000105     (8.048%)
+b1              = 1.32047          +/- 0.06399      (4.846%)
+
+correlation matrix of the fit parameters:
+                a      b      c      m1     b1     
+a               1.000 
+b               0.960  1.000 
+c               0.004 -0.173  1.000 
+m1              0.029  0.029 -0.050  1.000 
+b1             -0.036 -0.037  0.063 -0.904  1.000 
+
+
+*******************************************************************************
+Sun Feb 28 16:41:16 2016
+
+
+FIT:    data read from "group2muondata_2016.Spe" u 0:1
+        format = x:z
+        x range restricted to [100.000 : 650.000]
+        #datapoints = 551
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+	f1(x) = A1*exp(-0.5*((x-o1)/s1)**2)+(e1*x*x)+(d1*x)+c1 + A2*exp(-0.5*((x-o2)/s2)**2)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A1            o1            s1            c1            d1            e1            A2            o2            s2           
+   0 5.8457385760e+16   0.00e+00  3.43e+06    6.000000e+00   2.000000e+02   5.000000e+01   4.000000e+01   5.000000e+01   5.000000e+01   1.620000e+02   8.130000e+02   1.000000e+02
+  67 5.0566282687e+02  -9.94e-01  3.43e-01    4.307391e+00   2.461903e+01   1.780036e+02  -4.566391e+00   1.932650e-02  -1.830489e-05   1.596379e+02   1.150361e+03   8.116633e+01
+
+After 67 iterations the fit converged.
+final sum of squares of residuals : 505.663
+rel. change during last iteration : -9.94115e-06
+
+degrees of freedom    (FIT_NDF)                        : 542
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.965897
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.932957
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A1              = 4.30739          +/- 85.37        (1982%)
+o1              = 24.619           +/- 1633         (6632%)
+s1              = 178.004          +/- 1035         (581.3%)
+c1              = -4.56639         +/- 95.37        (2088%)
+d1              = 0.0193265        +/- 0.3105       (1607%)
+e1              = -1.83049e-05     +/- 0.0002573    (1405%)
+A2              = 159.638          +/- 4.464e+11    (2.796e+11%)
+o2              = 1150.36          +/- 7.19e+10     (6.25e+09%)
+s2              = 81.1663          +/- 5.123e+09    (6.311e+09%)
+
+correlation matrix of the fit parameters:
+                A1     o1     s1     c1     d1     e1     A2     o2     s2     
+A1              1.000 
+o1             -0.999  1.000 
+s1              0.999 -1.000  1.000 
+c1             -1.000  0.999 -0.998  1.000 
+d1              1.000 -0.998  0.997 -1.000  1.000 
+e1             -0.999  0.997 -0.996  1.000 -1.000  1.000 
+A2              0.732 -0.725  0.715 -0.735  0.740 -0.747  1.000 
+o2              0.738 -0.731  0.721 -0.741  0.746 -0.753  1.000  1.000 
+s2              0.745 -0.738  0.728 -0.748  0.753 -0.760  1.000  1.000  1.000 
+
+
+*******************************************************************************
+Sun Feb 28 16:41:44 2016
+
+
+FIT:    data read from "group2muondata_2016.Spe" using 0:1
+        format = x:z
+        x range restricted to [100.000 : 1000.00]
+        #datapoints = 901
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a * (exp((-(x-b)**2)/(2*c**2)))+m1*x+b1
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             m1            b1           
+   0 3.3407038877e+08   0.00e+00  2.74e+02    8.000000e+00   3.000000e+02   1.000000e+00   1.000000e+00   1.000000e+00
+   7 6.0078300923e+02  -1.36e-01  2.74e-02    1.457063e-01   3.015334e+02   3.940441e-01  -1.299075e-03   1.316990e+00
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 600.783
+rel. change during last iteration : -1.35927e-06
+
+degrees of freedom    (FIT_NDF)                        : 896
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.818851
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.670517
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.145706         +/- 80.08        (5.496e+04%)
+b               = 301.533          +/- 27.77        (9.209%)
+c               = 0.394044         +/- 132.7        (3.369e+04%)
+m1              = -0.00129907      +/- 0.0001051    (8.089%)
+b1              = 1.31699          +/- 0.06403      (4.862%)
+
+correlation matrix of the fit parameters:
+                a      b      c      m1     b1     
+a               1.000 
+b              -0.993  1.000 
+c              -1.000  0.992  1.000 
+m1             -0.041  0.041  0.042  1.000 
+b1              0.056 -0.056 -0.057 -0.904  1.000 
+
+
+*******************************************************************************
+Sun Feb 28 16:41:44 2016
+
+
+FIT:    data read from "group2muondata_2016.Spe" u 0:1
+        format = x:z
+        x range restricted to [100.000 : 650.000]
+        #datapoints = 551
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+	f1(x) = A1*exp(-0.5*((x-o1)/s1)**2)+(e1*x*x)+(d1*x)+c1 + A2*exp(-0.5*((x-o2)/s2)**2)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A1            o1            s1            c1            d1            e1            A2            o2            s2           
+   0 5.8457385760e+16   0.00e+00  3.43e+06    6.000000e+00   2.000000e+02   5.000000e+01   4.000000e+01   5.000000e+01   5.000000e+01   1.620000e+02   8.130000e+02   1.000000e+02
+  67 5.0566282687e+02  -9.94e-01  3.43e-01    4.307391e+00   2.461903e+01   1.780036e+02  -4.566391e+00   1.932650e-02  -1.830489e-05   1.596379e+02   1.150361e+03   8.116633e+01
+
+After 67 iterations the fit converged.
+final sum of squares of residuals : 505.663
+rel. change during last iteration : -9.94115e-06
+
+degrees of freedom    (FIT_NDF)                        : 542
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.965897
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.932957
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A1              = 4.30739          +/- 85.37        (1982%)
+o1              = 24.619           +/- 1633         (6632%)
+s1              = 178.004          +/- 1035         (581.3%)
+c1              = -4.56639         +/- 95.37        (2088%)
+d1              = 0.0193265        +/- 0.3105       (1607%)
+e1              = -1.83049e-05     +/- 0.0002573    (1405%)
+A2              = 159.638          +/- 4.464e+11    (2.796e+11%)
+o2              = 1150.36          +/- 7.19e+10     (6.25e+09%)
+s2              = 81.1663          +/- 5.123e+09    (6.311e+09%)
+
+correlation matrix of the fit parameters:
+                A1     o1     s1     c1     d1     e1     A2     o2     s2     
+A1              1.000 
+o1             -0.999  1.000 
+s1              0.999 -1.000  1.000 
+c1             -1.000  0.999 -0.998  1.000 
+d1              1.000 -0.998  0.997 -1.000  1.000 
+e1             -0.999  0.997 -0.996  1.000 -1.000  1.000 
+A2              0.732 -0.725  0.715 -0.735  0.740 -0.747  1.000 
+o2              0.738 -0.731  0.721 -0.741  0.746 -0.753  1.000  1.000 
+s2              0.745 -0.738  0.728 -0.748  0.753 -0.760  1.000  1.000  1.000 
+
+
+*******************************************************************************
+Sun Feb 28 16:41:58 2016
+
+
+FIT:    data read from "group2muondata_2016.Spe" using 0:1
+        format = x:z
+        x range restricted to [100.000 : 1000.00]
+        #datapoints = 901
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a * (exp((-(x-b)**2)/(2*c**2)))+m1*x+b1
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             m1            b1           
+   0 3.3406580414e+08   0.00e+00  2.73e+02    5.000000e+00   3.000000e+02   1.000000e+00   1.000000e+00   1.000000e+00
+  17 5.9514459183e+02  -5.75e-01  2.73e-14    3.943403e-01   1.636335e+02   1.206801e+02  -8.501453e-04   9.772297e-01
+
+After 17 iterations the fit converged.
+final sum of squares of residuals : 595.145
+rel. change during last iteration : -5.75433e-06
+
+degrees of freedom    (FIT_NDF)                        : 896
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.814999
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.664224
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.39434          +/- 0.1564       (39.65%)
+b               = 163.634          +/- 65.38        (39.95%)
+c               = 120.68           +/- 72.32        (59.93%)
+m1              = -0.000850145     +/- 0.0002479    (29.16%)
+b1              = 0.97723          +/- 0.1886       (19.3%)
+
+correlation matrix of the fit parameters:
+                a      b      c      m1     b1     
+a               1.000 
+b              -0.334  1.000 
+c               0.493 -0.788  1.000 
+m1              0.862 -0.326  0.610  1.000 
+b1             -0.882  0.341 -0.652 -0.982  1.000 
+
+
+*******************************************************************************
+Sun Feb 28 16:41:59 2016
+
+
+FIT:    data read from "group2muondata_2016.Spe" u 0:1
+        format = x:z
+        x range restricted to [100.000 : 650.000]
+        #datapoints = 551
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+	f1(x) = A1*exp(-0.5*((x-o1)/s1)**2)+(e1*x*x)+(d1*x)+c1 + A2*exp(-0.5*((x-o2)/s2)**2)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A1            o1            s1            c1            d1            e1            A2            o2            s2           
+   0 5.8457385760e+16   0.00e+00  3.43e+06    6.000000e+00   2.000000e+02   5.000000e+01   4.000000e+01   5.000000e+01   5.000000e+01   1.620000e+02   8.130000e+02   1.000000e+02
+  67 5.0566282687e+02  -9.94e-01  3.43e-01    4.307391e+00   2.461903e+01   1.780036e+02  -4.566391e+00   1.932650e-02  -1.830489e-05   1.596379e+02   1.150361e+03   8.116633e+01
+
+After 67 iterations the fit converged.
+final sum of squares of residuals : 505.663
+rel. change during last iteration : -9.94115e-06
+
+degrees of freedom    (FIT_NDF)                        : 542
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.965897
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.932957
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A1              = 4.30739          +/- 85.37        (1982%)
+o1              = 24.619           +/- 1633         (6632%)
+s1              = 178.004          +/- 1035         (581.3%)
+c1              = -4.56639         +/- 95.37        (2088%)
+d1              = 0.0193265        +/- 0.3105       (1607%)
+e1              = -1.83049e-05     +/- 0.0002573    (1405%)
+A2              = 159.638          +/- 4.464e+11    (2.796e+11%)
+o2              = 1150.36          +/- 7.19e+10     (6.25e+09%)
+s2              = 81.1663          +/- 5.123e+09    (6.311e+09%)
+
+correlation matrix of the fit parameters:
+                A1     o1     s1     c1     d1     e1     A2     o2     s2     
+A1              1.000 
+o1             -0.999  1.000 
+s1              0.999 -1.000  1.000 
+c1             -1.000  0.999 -0.998  1.000 
+d1              1.000 -0.998  0.997 -1.000  1.000 
+e1             -0.999  0.997 -0.996  1.000 -1.000  1.000 
+A2              0.732 -0.725  0.715 -0.735  0.740 -0.747  1.000 
+o2              0.738 -0.731  0.721 -0.741  0.746 -0.753  1.000  1.000 
+s2              0.745 -0.738  0.728 -0.748  0.753 -0.760  1.000  1.000  1.000 
+
+
+*******************************************************************************
+Sun Feb 28 16:42:11 2016
+
+
+FIT:    data read from "group2muondata_2016.Spe" using 0:1
+        format = x:z
+        x range restricted to [100.000 : 1000.00]
+        #datapoints = 901
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a * (exp((-(x-b)**2)/(2*c**2)))+m1*x+b1
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             m1            b1           
+   0 3.3406454467e+08   0.00e+00  2.73e+02    5.000000e+00   2.500000e+02   1.000000e+00   1.000000e+00   1.000000e+00
+   7 5.9977417606e+02  -9.11e-02  2.73e-02    1.851703e+00   2.507461e+02  -2.339102e-01  -1.294660e-03   1.313591e+00
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 599.774
+rel. change during last iteration : -9.11274e-07
+
+degrees of freedom    (FIT_NDF)                        : 896
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.818163
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.669391
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 1.8517           +/- 8175         (4.415e+05%)
+b               = 250.746          +/- 1070         (426.9%)
+c               = -0.23391         +/- 197.1        (8.427e+04%)
+m1              = -0.00129466      +/- 0.000105     (8.112%)
+b1              = 1.31359          +/- 0.06399      (4.871%)
+
+correlation matrix of the fit parameters:
+                a      b      c      m1     b1     
+a               1.000 
+b              -1.000  1.000 
+c               1.000 -1.000  1.000 
+m1             -0.038  0.038 -0.039  1.000 
+b1              0.049 -0.049  0.049 -0.904  1.000 
+
+
+*******************************************************************************
+Sun Feb 28 16:42:11 2016
+
+
+FIT:    data read from "group2muondata_2016.Spe" u 0:1
+        format = x:z
+        x range restricted to [100.000 : 650.000]
+        #datapoints = 551
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+	f1(x) = A1*exp(-0.5*((x-o1)/s1)**2)+(e1*x*x)+(d1*x)+c1 + A2*exp(-0.5*((x-o2)/s2)**2)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A1            o1            s1            c1            d1            e1            A2            o2            s2           
+   0 5.8457385760e+16   0.00e+00  3.43e+06    6.000000e+00   2.000000e+02   5.000000e+01   4.000000e+01   5.000000e+01   5.000000e+01   1.620000e+02   8.130000e+02   1.000000e+02
+  67 5.0566282687e+02  -9.94e-01  3.43e-01    4.307391e+00   2.461903e+01   1.780036e+02  -4.566391e+00   1.932650e-02  -1.830489e-05   1.596379e+02   1.150361e+03   8.116633e+01
+
+After 67 iterations the fit converged.
+final sum of squares of residuals : 505.663
+rel. change during last iteration : -9.94115e-06
+
+degrees of freedom    (FIT_NDF)                        : 542
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.965897
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.932957
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A1              = 4.30739          +/- 85.37        (1982%)
+o1              = 24.619           +/- 1633         (6632%)
+s1              = 178.004          +/- 1035         (581.3%)
+c1              = -4.56639         +/- 95.37        (2088%)
+d1              = 0.0193265        +/- 0.3105       (1607%)
+e1              = -1.83049e-05     +/- 0.0002573    (1405%)
+A2              = 159.638          +/- 4.464e+11    (2.796e+11%)
+o2              = 1150.36          +/- 7.19e+10     (6.25e+09%)
+s2              = 81.1663          +/- 5.123e+09    (6.311e+09%)
+
+correlation matrix of the fit parameters:
+                A1     o1     s1     c1     d1     e1     A2     o2     s2     
+A1              1.000 
+o1             -0.999  1.000 
+s1              0.999 -1.000  1.000 
+c1             -1.000  0.999 -0.998  1.000 
+d1              1.000 -0.998  0.997 -1.000  1.000 
+e1             -0.999  0.997 -0.996  1.000 -1.000  1.000 
+A2              0.732 -0.725  0.715 -0.735  0.740 -0.747  1.000 
+o2              0.738 -0.731  0.721 -0.741  0.746 -0.753  1.000  1.000 
+s2              0.745 -0.738  0.728 -0.748  0.753 -0.760  1.000  1.000  1.000 
+
+
+*******************************************************************************
+Sun Feb 28 16:46:09 2016
+
+
+FIT:    data read from "group2muondata_2016.Spe" using 0:1
+        format = x:z
+        x range restricted to [100.000 : 1000.00]
+        #datapoints = 901
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a * (exp((-(x-b)**2)/(2*c**2)))+m1*x+b1
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             m1            b1           
+   0 3.3406454467e+08   0.00e+00  2.73e+02    5.000000e+00   2.500000e+02   1.000000e+00   1.000000e+00   1.000000e+00
+   7 5.9977417606e+02  -9.11e-02  2.73e-02    1.851703e+00   2.507461e+02  -2.339102e-01  -1.294660e-03   1.313591e+00
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 599.774
+rel. change during last iteration : -9.11274e-07
+
+degrees of freedom    (FIT_NDF)                        : 896
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.818163
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.669391
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 1.8517           +/- 8175         (4.415e+05%)
+b               = 250.746          +/- 1070         (426.9%)
+c               = -0.23391         +/- 197.1        (8.427e+04%)
+m1              = -0.00129466      +/- 0.000105     (8.112%)
+b1              = 1.31359          +/- 0.06399      (4.871%)
+
+correlation matrix of the fit parameters:
+                a      b      c      m1     b1     
+a               1.000 
+b              -1.000  1.000 
+c               1.000 -1.000  1.000 
+m1             -0.038  0.038 -0.039  1.000 
+b1              0.049 -0.049  0.049 -0.904  1.000 
+
+
+*******************************************************************************
+Sun Feb 28 16:49:17 2016
+
+
+FIT:    data read from "group2muondata_2016.Spe" using 0:1
+        format = x:z
+        x range restricted to [100.000 : 1000.00]
+        #datapoints = 901
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a/(2*PI*s**2)**0.5*exp(-(x-m)**2/(2*s**2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   s             m             a            
+   0 1.0310000000e+03   0.00e+00  0.00e+00    1.000000e+00   1.000000e+00   5.000000e+00
+BREAK: Singular matrix in Givens()
+
+*******************************************************************************
+Sun Feb 28 16:50:13 2016
+
+
+FIT:    data read from "group2muondata_2016.Spe" using 0:1
+        format = x:z
+        x range restricted to [100.000 : 1000.00]
+        #datapoints = 901
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)= a/(2*PI*s**2)**0.5*exp(-(x-m)**2/(2*s**2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   s             m             a            
+   0 1.0286424720e+03   0.00e+00  1.62e-01    5.000000e+00   2.500000e+02   1.000000e+00
+BREAK: w = 0 in Givens();  Cjj = 4.28596e-194,  Cij = 1.66088e-191
+
+*******************************************************************************
+Sun Feb 28 16:50:25 2016
+
+
+FIT:    data read from "group2muondata_2016.Spe" using 0:1
+        format = x:z
+        x range restricted to [100.000 : 1000.00]
+        #datapoints = 901
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)= a/(2*PI*s**2)**0.5*exp(-(x-m)**2/(2*s**2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   s             m             a            
+   0 1.0279667903e+03   0.00e+00  8.99e+00    1.000000e+00   2.500000e+02   5.000000e+00
+BREAK: w = 0 in Givens();  Cjj = -1.99257e-278,  Cij = 4.7189e-263
+
+*******************************************************************************
+Sun Feb 28 16:51:12 2016
+
+
+FIT:    data read from "group2muondata_2016.Spe" using 0:1
+        format = x:z
+        x range restricted to [100.000 : 1000.00]
+        #datapoints = 901
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a * (exp((-(x-b)**2)/(2*c**2)))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 1.0500307471e+03   0.00e+00  2.25e+01    5.000000e+00   2.500000e+02   1.000000e+00
+BREAK: w = 0 in Givens();  Cjj = -1.88862e-281,  Cij = 4.93855e-266
+
+*******************************************************************************
+Sun Feb 28 16:55:40 2016
+
+
+FIT:    data read from "group2muondata_2016.Spe" using 0:1
+        format = x:z
+        x range restricted to [100.000 : 1000.00]
+        #datapoints = 901
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a * (exp((-(x-b)**2)/(2*c**2)))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 1.0310000000e+03   0.00e+00  0.00e+00    5.000000e+00   1.000000e+00   1.000000e+00
+BREAK: Singular matrix in Givens()
+
+*******************************************************************************
+Sun Feb 28 16:56:00 2016
+
+
+FIT:    data read from "group2muondata_2016.Spe" using 0:1
+        format = x:z
+        x range restricted to [100.000 : 1000.00]
+        #datapoints = 901
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a/(2*PI*s**2)**0.5*exp(-(x-m)**2/(2*s**2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   s             m             a            
+   0 1.0279667903e+03   0.00e+00  8.99e+00    1.000000e+00   2.500000e+02   5.000000e+00
+BREAK: w = 0 in Givens();  Cjj = -1.99257e-278,  Cij = 4.7189e-263
+
+*******************************************************************************
+Sun Feb 28 17:00:14 2016
+
+
+FIT:    data read from "group2muondata_2016.Spe" using 0:1
+        format = x:z
+        x range restricted to [100.000 : 1000.00]
+        #datapoints = 901
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a/(2*PI*s**2)**0.5*exp(-(x-m)**2/(2*s**2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   s             m             a            
+   0 1.0279667903e+03   0.00e+00  8.99e+00    1.000000e+00   2.500000e+02   5.000000e+00
+BREAK: w = 0 in Givens();  Cjj = -1.99257e-278,  Cij = 4.7189e-263
+
+*******************************************************************************
+Sun Feb 28 17:01:19 2016
+
+
+FIT:    data read from "group2muondata_2016.Spe" using 0:1
+        format = x:z
+        x range restricted to [100.000 : 1000.00]
+        #datapoints = 901
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a/(2*PI*s**2)**0.5*exp(-(x-m)**2/(2*s**2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   s             m             a            
+   0 1.0213099724e+03   0.00e+00  1.74e+00    3.000000e+00   2.500000e+02   5.000000e+00
+BREAK: w = 0 in Givens();  Cjj = -4.44155e-300,  Cij = 1.0318e-294
+
+*******************************************************************************
+Sun Feb 28 17:18:43 2016
+
+
+FIT:    data read from "group2muondata_2016.Spe" using 0:1
+        format = x:z
+        x range restricted to [100.000 : 1000.00]
+        #datapoints = 901
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a/(2*PI*s**2)**0.5*exp(-(x-m)**2/(2*s**2))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   s             m             a            
+   0 1.0213099724e+03   0.00e+00  1.74e+00    3.000000e+00   2.500000e+02   5.000000e+00
+BREAK: w = 0 in Givens();  Cjj = -4.44155e-300,  Cij = 1.0318e-294

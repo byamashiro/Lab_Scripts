@@ -1,0 +1,75 @@
+Notes on procedure from optics lab day1 : November 12, 2015
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Part1 : Brewster angle measurement
+
++ set vernier to zero.
++ high precision optic table spacing of holes are 1'' +/- 0.005''
++ observed scattering off detector
++ observed reflection from rear of wedge prism 
++ aligned by adjusting horizontal and vertical alignment to iris
++ From wedge lens, keep only incident radiation to measure the Brewster angle
++ observed top horizontal light disappear, while bottom light (from reflected back of wedge) did not
++ s-polarize --> sagittal
++ p-polarize --> parallel
+
+To measure the Brewster angle
++ Mount mirror on vernier to reflec reflected back light from wedge into silicon photodiode detector
++ By observing the reflection we are able to make observations when the polarization cancels the incident radiation from observation
++ 150 mm focusing lens from (detector?)
++ light shield applied
++ lens turned to minimize signal
+1.) Christina turned iris: prefectly p, eliminated all s
+2.) Brian dialed in to Brewster angle, the rest of the p
+
++ read off angle from vernier
+--> Brewster angle (blind analysis) --> (303.5 +/- 0.08) degrees
+theta = 360 - 303.5 == 56.5
+tan (56.5) = 1.51083
+
+ratio of :  n_glass / n_air --> multiplying by n_air 
+(n_air)(1.51083) == 1.51127787
+error = +/- 5 arc minutes
+n_bk7 = 1.5113
+
+STD n_bk7 = 1.515
+(note: index of glass is sample dependent)
+
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Part2 : Malus' Law
+
++ observed when we took out the wedge lens, saw beam pop up. Becasue the wedge is a prism.
++ Cross polarization of : 1.) lens immediately in front of detector. 2.) polarizer before the chopper
++ Voltage is proportional to Intensity
++ Voltage is measured in detector / oscillation
++ Vary as cos^2
+
++ Check linear range of detector by:
++ cos^2 fit to 0-2 [V] range and then look at the peaks of the plot of Intensity (y-axis) vs. Angle Theta (x-axis)
+
++ because signal was clipping needed to adjust detector settings to range of sensitivity <= 10V
++ Started at finding min for polarizer closest to detector. Found at 179 degrees
++ then turned the same polarizer to maximum == 89 degrees
++ adjusted polarizer from laser to 10 V max on oscilloscope.
++ adjusted detector polarizer to 2V --> 147 degrees
++ Set Starting point at 145 degrees
+
++ took measurements in increments of 5 degrees.
++ data in xls table
++ error :  (+/- 0.05) V/division
+
++ For fit:  I = (b) cos^2 (theta1 - theta0)
++ b and theta0 are the fitting parameters
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++ For next lab :
++ fringes
++ Jones vector
++ Muller matrices
++ Jones matrices
+
+

@@ -1,0 +1,63 @@
+#Nov. 5, 2015
+#HV_B (-)
+#high voltage 1800 kV
+#1.801 V read out (-1800 kV)
+
+Changed to:
+HV_D
+-1780 kV
+
+coarse gain: 8
+fine tune: 0
+total gain: 8
+
+sodium 
+with NO material:
++9 min
+
+
+Cesium: 3 minutes 
+
+Measure 0: Al NO material
+Ch 714-923, Integration ; 26177
+
+
+Measure 1:  Al 1.247 cm
+Ch 714-923, Integration: 21318
+
+
+Measure 2: Al 1.247*2 cm = 2.494cm
+Ch 690 - 880 , Integraion : 17442  
+
+Measure 3: Al 5.594 cm
+Ch 701 - 888, Integration : 10199
+
+
+Measure 4: Pb 0.644 cm
+Ch 699 - 897 , Integration : 13358
+
+Measure 5: Pb 1.914 cm
+Ch 733 - 875, Integration : 3184
+
+
+Cobalt 60: 5  minutes
+
+Measure 0: NO material
+Ch 1477-1710, Integration: 2774
+
+
+Measure 1: Al 1.247 cm
+Ch 1477-1710, Integration: 2470
+
+Measure 2: Al 1.247*2 cm = 2.494cm
+Ch 1477-1710, Integration: 2089
+
+Measure 3: Al 5.594 cm
+Ch 1477-1710, Integration : 1385
+
+Measure 4: Pb 0.644 cm
+Ch 1477-1710, Integration : 2037
+
+Measure 5: Pb 1.914 cm
+Ch 1477-1710, Integration : 977
+

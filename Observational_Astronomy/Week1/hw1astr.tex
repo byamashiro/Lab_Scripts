@@ -1,0 +1,306 @@
+%%
+%% Beginning of file 'sample.tex'
+%%
+%% Modified 2015 December
+%%
+%% This is a sample manuscript marked up using the
+%% AASTeX v6.x LaTeX 2e macros.
+
+%% AASTeX is now based on Alexey Vikhlinin's emulateapj.cls 
+%% (Copyright 2000-2015).  See the classfile for details.
+%%
+%% AASTeX requires revtex4-1.cls (http://publish.aps.org/revtex4/) and
+%% other external packages (latexsym, graphicx, amssymb, longtable, and epsf).
+%% All of these external packages should already be present in the modern TeX 
+%% distributions.  If not they can also be obtained at www.ctan.org.
+
+%% The first piece of markup in an AASTeX v6.x document is the \documentclass
+%% command. LaTeX will ignore any data that comes before this command. The 
+%% documentclass can take an optional argument to modify the output style.
+%% The command below calls the preprint style  which will produce a tightly 
+%% typeset, one-column, single-spaced document.  It is the default and thus
+%% does not need to be explicitly stated.
+%%
+
+%% using aastex version 6
+\documentclass[twocolumn]{aastex6}
+
+%% The other main article choice is a tightly typeset, two-column article
+%% that more closely resembles the final typeset pdf article.
+%%
+%% \documentclass[twocolumn]{aastex6}
+%% 
+%% There are other optional arguments one can envoke to allow other 
+%% actions. 
+%%
+% These are the available options:
+%   manuscript	: onecolumn, doublespace, 12pt fonts
+%   preprint	: onecolumn, single space, 10pt fonts
+%   preprint2	: twocolumn, single space, 10pt fonts
+%   twocolumn	: a two column article. Probably not needed, but here just in case.
+%   onecolumn	: a one column article; default option.
+%   twocolappendix: make 2 column appendix
+%   onecolappendix: make 1 column appendix is the default. 
+%   astrosymb	: Loads Astrosymb font and define \astrocommands. 
+%   tighten	: Makes baselineskip slightly smaller
+%   times	: uses times font instead of the default
+%   linenumbers	: turn on lineno package.
+%   trackchanges : required to see the revision mark up and print output
+%   numberedappendix: Labels appendix sections A, B, ... This is the default.
+%   appendixfloats: Needed. Resets figure and table counters to zero
+
+%% these can be used in any combination, e.g.
+%%
+%% \documentclass[twocolumn,twocolappendix,linenumbers,trackchanges]{aastex6}
+
+%% If you want to create your own macros, you can do so
+%% using \newcommand. Your macros should appear before
+%% the \begin{document} command.
+%%
+\newcommand{\vdag}{(v)^\dagger}
+\newcommand\aastex{AAS\TeX}
+\newcommand\latex{La\TeX}
+
+%% AASTeX 6.0 supports the ability to suppress the names and affiliations
+%% of some authors and displaying them under a "collaboration" banner to
+%% minimize the amount of author information that to be printed.  This 
+%% should be reserved for articles with an extreme number of authors.
+%%
+%% Mark up commands to limit the number of authors on the front page.
+\AuthorCallLimit=1
+%% Will only show Schwarz & Muench since Schwarz and Muench
+%% are in the same \author call. 
+\fullcollaborationName{The Friends of AASTeX Collaboration}
+%% will print the collaboration text after the shortened author list.
+%% These commands have to COME BEFORE the \author calls.
+%%
+%% Note that all of these author will be shown in the published article.
+%% This feature is meant to be used prior to acceptance to make the
+%% front end of a long author article more manageable.
+%% Use \allauthors at the manuscript end to show the full author list.
+
+%% The following command can be used to set the latex table counters.  It
+%% is needed in this document because it uses a mix of latex tabular and
+%% AASTeX deluxetables.  In general it should not be needed.
+%\setcounter{table}{1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
+%% The following commented section outlines numerous optional output that
+%% can be displayed in the front matter or as running meta-data.
+%%
+%% You can insert a short comment on the title page using the command below.
+%% \slugcomment{Not to appear in Nonlearned J., 45.}
+%%
+%% If you wish, you may supply running head information, although
+%% this information may be modified by the editorial offices.
+%%\shorttitle{\aastex sample article}
+%%\shortauthors{Schwarz et al.}
+%%
+%% You can add a light gray and diagonal water-mark to the first page 
+%% with this command:
+%% \watermark{text}
+%% where "text", e.g. DRAFT, is the text to appear.  If the text is 
+%% long you can control the water-mark size with:
+%% \setwatermarkfontsize{dimension}
+%% where dimension is any recognized LaTeX dimension, e.g. pt, in, etc.
+%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% This is the end of the preamble.  Indicate the beginning of the
+%% paper itself with \begin{document}.
+
+\begin{document}
+
+%% LaTeX will automatically break titles if they run longer than
+%% one line. However, you may use \\ to force a line break if
+%% you desire.
+
+\title{HW 01: Introduction to reading scientific papers and using \LaTeX}
+
+%% Use \author, \affil, plus the \and command to format author and affiliation 
+%% information.  If done correctly the peer review system will be able to
+%% automatically put the author and affiliation information from the manuscript
+%% and save the corresponding author the trouble of entering it by hand.
+%%
+%% The \affil should be used to document primary affiliations and the
+%% \altaffil should be used for secondary affiliations, titles, or email.
+
+%% Authors with the same affiliation can be grouped in a single
+%% \author and \affil call.
+\author{Bryan Yamashiro\altaffilmark{1}}
+\affil{University of Hawaii at Manoa \\
+2500 Campus Road \\
+Honolulu, HI 96822}
+
+
+%% Use the \and command so offset the last author.
+
+%% Notice that each of these authors has alternate affiliations, which
+%% are identified by the \altaffilmark after each name.  Specify alternate
+%% affiliation information with \altaffiltext, with one command per each
+%% affiliation.
+
+\altaffiltext{1}{A cool dude}
+\altaffiltext{2}{Another cool dude}
+
+
+%% From the front matter, we move on to the body of the paper.
+%% Sections are demarcated by \section and \subsection, respectively.
+%% Observe the use of the LaTeX \label
+%% command after the \subsection to give a symbolic KEY to the
+%% subsection for cross-referencing in a \ref command.
+%% You can use LaTeX's \ref and \label commands to keep track of
+%% cross-references to sections, equations, tables, and figures.
+%% That way, if you change the order of any elements, LaTeX will
+%% automatically renumber them.
+
+%% We recommend that authors also use the natbib \citep
+%% and \citet commands to identify citations.  The citations are
+%% tied to the reference list via symbolic KEYs. The KEY corresponds
+%% to the KEY in the \bibitem in the reference list below. 
+
+\section{Introduction} \label{sec:intro}
+\begin{enumerate}
+	\item The Five C's
+		\begin{enumerate}
+			\item \underline{Category:} The paper is a blend between a \textbf{measurement} and an \textbf{analysis} on an existing system. The researchers monitor the young cluster IC 348 in the Cousins I band with a 0.6\,m telescope. General traits are extrapolated upon and the results relating to canonical views are discussed.
+			\item \underline{Context:} This paper is related to general variability studies of pre-main sequence\,(PMS) populations. The young cluster IC 348 is thought to be an optimal candidate on the bases that it is nearby, extremely young, and relatively free of nebulosity which complicates photometric studies. Technical bases include advanced techniques including near-infrared studies, IR spectroscopy, and emission studies.
+			\item \underline{Correctness:} Although the authors explain that the general cannon of PMS variability stand, the weak T Tauri stars\,(WTTS) controversially exhibit non-periodicity.
+			\item \underline{Contributions:} This paper raises great questions about the non-periodic behavior of WTTS. These questions include, 1)\,Are these systems with a small amount of accretion 2)\,Are they stars with changing spot patters during the observational epoch?. Secondly, the content does well to state the observations that hold true to models and further proved them.
+			\item \underline{Clarity: } The paper is well written, but some areas are highly specialized. Although sections are specialized, the author does well to extrapolate on certain ideas for the general audience to understand.
+		\end{enumerate}
+	\item New Vocabulary
+		\begin{enumerate}
+		    \item \underline{Photometry: } The measurement of the brightness of stars and other celestial objects\,(nebulae, galaxies, planets, etc.).
+		    \item \underline{Variable Star: } Any star whose observed light varies notably in intensity. The changes in brightness may be periodic, semi-regular, or completely irregular.
+		    \item \underline{FUors: } FU Orionis objects that undergo accretion outbursts during which the accretion rate rapidly increases from typically 10$^{-7}$ to a few 10$^{-4}$\,M$_{\odot}$yr$^{-1}$ and remains elevated over several decades or more.\,\cite{2}
+		    \item \underline{EXors: } EX Lup objects that are a loosely defined class of PMS stars, exhibit shorter and repetitive outbursts, associated with lower accretion rates.\,\cite{2}
+		    \item \underline{UXors: } UX Orionis stars, intermediate-mass PMS stars displaying a peculiar kind of photometric variability. Their V-band light curves are characterized by sudden drops in brightness of up to 3 mag with durations of days to many weeks.\,\cite{1}
+		    \item \underline{CCD detectors: } The charge-coupled device\,(CCD) uses a light-sensitive material on a silicon chip to electronically detect photons in a way similar to the photomultiplier tube. The principle difference is that the chip also contains integrated micro-circuitry required to transfer the detected signal along a row of discrete picture elements\,(or pixels) and thereby scan a celestial object of objects very rapidly.
+		\end{enumerate}	
+	\item Analyze Sections
+		\begin{enumerate}
+			\item Observations and Initial Reductions
+				\begin{enumerate}
+					\item Observations between December 1998 to March 1999 with a 1024x1024 Photometrics CCD attached to the f/13.5, 0.6\,m Perkin telescope at Van Vleck Observatory utilizing a Cousins I filter.
+					\item Review of viewing procedures totaling 76 images with an effective integration time of 5 minutes each on 27 separate nights.
+					\item Reduction to 6 potential comparison objects/stars.
+				\end{enumerate}
+			\item Transformation to a Standard System
+				\begin{enumerate}
+					\item Linear transformation from instrumental magnitude\,(i) to standard magnitude\,(I).
+					\item Agreements with current accepted values comparing to local photometric system of Trullols and Jordi\,(TJ) and Herbig\,(H98).
+\begin{center}
+\begin{tabular}{ c|c }
+Model & Magnitude\,(I) \\ \hline
+ Paper Results & 11.99  \\ 
+ TJ & 12.02  \\  
+ H98 & 12.60     
+\end{tabular}
+\end{center}
+
+				\end{enumerate}
+			\item Variability
+				\begin{enumerate}
+					\item Use of standard error\,($\sigma$) to address variability.
+					\item \underline{Brighter stars\,(I$<$13.5)} -- systematic effects coming mostly from flat-fielding errors and residual variability in the reference magnitude - to our photometric accuracy for even bright stars.
+					\item \underline{Fainter stars\,(I$>$13.5)} -- random errors reflected by the influence of sky measurement errors on the photometry.
+					\item Expectation confirmation for this sample:
+						\begin{itemize}
+							\item Absorption line stars show no evidence of variability, most CTTS and WTTS are variable stars.
+							\item CTTS as a group are more variable than WTTS.
+							\item \textbf{Not one of the stars found to be periodic is a known CTTS, whereas 17 of 19 are WTTS.}
+						\end{itemize}
+
+				\end{enumerate}
+			\item Periodic Variables
+				\begin{enumerate}
+					\item Use of older procedures to identify periodic variables, utilizing periodograms formed from the I magnitude time series for each and ever star (regardless of whether it showed a significantly non-zero value of $\sigma$$_{var}$).
+					\item 17 of 19 stars are WTTS, and portray a surprising absence of CTTS even though they are as bright as WTTS.
+					\item Supports general picture of variability of PMS stars that have evolved over time.
+				\end{enumerate}
+			\item Variability and IR Data
+				\begin{enumerate}
+					\item Comparisons of positions in the JHK bands of IC 348 (143 of 151 object matches).
+					\item Almost no correlation between variability and IR excess emission (at least in I-K) in the sample.
+					\item essentially no relation between excess IR emission and rotation period for IC 348.
+					\item Reveals possible connection between rotation and disks.
+				\end{enumerate}
+		\end{enumerate}
+	\item ID Useful communications strategies
+		\begin{enumerate}
+			\item The inclusion of equation regarding error and statistics is useful for visualizing techniques. Defining and providing references to model literature was vital for comparisons. The keywords are somewhat vague, and better keywords could be used. Content is quite specialized, but the author does well to map out procedures and techniques used.
+		\end{enumerate}
+	\item Followup a citation
+		\begin{enumerate}
+			\item UBVR1 PASSBANDS, Bessell, M.S.\,\cite{3}
+				\begin{enumerate}
+					\item Compares synthetic photometry with actual observations and with standard system magnitudes.
+					\item Passbands of photometric systems enable color indices to be calibrated theoretically and to enable observations by different observers using different equipment to be made and compared with precision.
+					\item Can be used with theoretical fluxes for calibration of temperature, abundance, and gravity.
+					\item Cousins standards are good matches to the Johnson UBV system and the E-region standards are recommended as the most precise and internally consistent set of secondary UBVRI standards.
+					\item Transformation equations can be used at the large telescope and faint standards observed to provide zero-point corrections only, which increase the efficiency of observing and improve the reliability of CCD absolute photometry.
+					\item \textbf{If users match passbands and use precise standards there is no reason why the broad-band UBVRI system cannot match the prevision of any of the narrow-band systems}.
+				\end{enumerate}
+		\end{enumerate}
+\end{enumerate}
+
+\acknowledgments
+
+
+
+\vspace{5mm}
+
+\begin{thebibliography}{}
+
+\bibitem[Audard(2014)]{2}
+Audard, M., Abrah´am, P., Dunham, M. M., et al. 2014, in Protostars and Pl ´ anets VI, ed. H. Beuther et al. Tucson, AZ: Univ. Arizona Press), p. 387
+\bibitem[Bessell(1990)]{3}
+Bessell, M. S. 1990, PASP102, 1181
+\bibitem[Dullemond(2003)]{1}
+Dullemond, C. P., van den Ancker, M. E., Acke, B., \& van Boekel, R. 2003, ApJL, 594, L47
+\clearpage
+
+\end{thebibliography}
+
+
+
+%% Appendix material should be preceded with a single \appendix command.
+%% There should be a \section command for each appendix. Mark appendix
+%% subsections with the same markup you use in the main body of the paper.
+
+%% Each Appendix (indicated with \section) will be lettered A, B, C, etc.
+%% The equation counter will reset when it encounters the \appendix
+%% command and will number appendix equations (A1), (A2), etc.
+
+
+%% The reference list follows the main body and any appendices.
+%% Use LaTeX's thebibliography environment to mark up your reference list.
+%% Note \begin{thebibliography} is followed by an empty set of
+%% curly braces.  If you forget this, LaTeX will generate the error
+%% "Perhaps a missing \item?".
+%%
+%% thebibliography produces citations in the text using \bibitem-\cite
+%% cross-referencing. Each reference is preceded by a
+%% \bibitem command that defines in curly braces the KEY that corresponds
+%% to the KEY in the \cite commands (see the first section above).
+%% Make sure that you provide a unique KEY for every \bibitem or else the
+%% paper will not LaTeX. The square brackets should contain
+%% the citation text that LaTeX will insert in
+%% place of the \cite commands.
+
+%% We have used macros to produce journal name abbreviations.
+%% \aastex provides a number of these for the more frequently-cited journals.
+%% See the Author Guide for a list of them.
+
+%% Note that the style of the \bibitem labels (in []) is slightly
+%% different from previous examples.  The natbib system solves a host
+%% of citation expression problems, but it is necessary to clearly
+%% delimit the year from the author name used in the citation.
+%% See the natbib documentation for more details and options.
+
+
+\end{document}
+
+%% End of file `sample.tex'.

@@ -1,0 +1,78 @@
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Procedural Notes from Optics Lab day2
+December 3, 2015
+these notes consist of procedural steps
+Please refer to Bryan's file for data points
+   and Image of blackboard from Corey
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++Goal : to determine the direction of crystal orientation 
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+validated correct beam height to 6 inches
+aligned with appropriate row of holes on high precision table
+Alignment made from mirror
+45 degree angle polarizer 
+ (46 degree is what Szarme's said it is "actually" set to, but we say 45)
+LINEAR POLARIZER observed first
+  confirm that when it reflects off surface it remains linearly polarized
+
+Calculated Fresnel Reflection Coefficient
+n_plate = 1.5188
+theta   = angle of incidence (45 degrees)
+r_p = 0.094789
+r_s = 0.307891
+----------------> arctan(r_s / r_p) ~ 72.886 degrees
+Fresnel Coefficients valid
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Dielectric plate mirror set to 45 (46) degrees
+Polarizer 165 (166) degrees
+observed that we could not kill the signal, ie. observed NO linear polarization
+Derived the absorption coefficient dependence
+  note there is now a complex refractive index dependence
+  Regard Jones matrices to calculate a^2, b^2, I_+ and I_-
+Measured:
+ phi = +/- 20.9 degrees
+To remove ambiguity of +/- one can put a pi/2 wave plate which implaces a 90 degree
+ phase shift on the horizontal, then redo measurement and determine which quadrant 
+ angle is measured in.
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Birefringence of Sapphire 
+results from difference between refractive indices
+the randomly polarized light goes in and sees different indices of refraction
+2 eigenstates are orthogonal
+The relative phase shift will change the state of the bean 
+  use birefringence to determine with the c-axis the angle of polarization
+Sample dependencies of Sapphire material:
+  thickness
+  angle of propogation relative to the c-axis
+
+Tan (alpha) = Sin(phi)
+measure phi
+calculate alpha using Snell's law
+
+procedure to measure phi:
+dialed in vertical polarizer
+rotated to max excursion to polarization
+max horizontal when min vertical (179 degrees)
+After minimization, data taken at min, and points on each side of the min.
+
+Sapphire n_o - n_e = 0.00865
+The dips observed is from the c-axis rotating wrt to the incoming beam
+regard o and e componenets from diagram on chalkboard
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+
+
+
